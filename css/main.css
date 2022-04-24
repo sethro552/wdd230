@@ -1,0 +1,17 @@
+element.style {
+}
+main {
+    display: block;
+}
+body {
+    max-width: 960px;
+    margin:auto
+    background-color: rgb(128, 128, 128)
+    font-size: 18px;
+    line-height: 1.5;
+    margin-bottom: 8px
+    margin-left: 8px
+    margin-right: 8px
+    margin-top: 8px
+    font-family: Times, serif;
+}
