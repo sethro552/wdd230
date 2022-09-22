@@ -1,1 +1,36 @@
+element.style {
+}
+body {
+    border-radius: 5px;
+    min-height: 406px;
+    height: 70%;
+    width: 70%;
+    max-width: 700px;
+    background-color: white;
+}
+body {
+    margin: 0;
+}
+* {
+    font-family: 'Gugi';
+}
+body {
+    display: block;
+    margin: 8px;
+}
+html {
+    line-height: 1.15;
+    -webkit-text-size-adjust: 100%;
+}
+::-webkit-scrollbar {
+    width: 7px;
+}
+::-webkit-scrollbar-thumb {
+    background-color: seagreen;
+    border-radius: 5px;
+}
+::-webkit-scrollbar-track {
+    background: transparent;
+}
+
 (min-width: 32.5em)
