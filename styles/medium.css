@@ -33,4 +33,6 @@ html {
     background: transparent;
 }
 
+h1, h2, h3 { font-family: 'Roboto', 'Open Sans', sans-serif; }
+
 (min-width: 32.5em)
