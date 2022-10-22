@@ -1,0 +1,18 @@
+element {
+}
+:root {
+  --main-color: #2e8b57;
+  --secondary-color: #add8e6;
+  --accent-color: #90ee90;
+  --default-light: #ffffff;
+  --default-dark: #2f2f2f;
+  --header-font: 'Exo 2', sans-serif;
+  --paragraph-font: 'Comfortaa', sans-serif;
+}
+html {
+  background-color: var(--secondary-color);
+}
+html {
+  line-height: 1.15;
+  -webkit-text-size-adjust: 100%;
+}
