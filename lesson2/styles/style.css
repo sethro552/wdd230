@@ -7,14 +7,7 @@ body {
 body {
   margin: 0;
 }
-  @font-face {
-    font-family: 'Merriweather';
-    font-style: normal;
-    font-weight: 300;
-    font-display: swap;
-    src: url(https://fonts.gstatic.com/s/merriweather/v30/u-4n0qyriQwlOrhSvowK_l521wRZVcf6lvg.woff2) format('woff2');
-    unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
-}
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300&display=swap');
 html {
   line-height: 1.15;
   -webkit-text-size-adjust: 100%;
