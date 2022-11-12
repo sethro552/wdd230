@@ -1,21 +1,18 @@
-.brk1 {
-    display: block;
+main {
+    display: grid;
+    grid-template-columns: 1fr;
 }
-.unBrk1 {
-    display: none;
+section {
+    background-color: blue;
+    padding: 10px;
+    margin: 20px;
+    margin-top: 5px;
 }
 h1 {
     justify-self: start;
 }
-@media screen and (max-width: 405px) {
     header {
         grid-template-columns: auto 54.8px;
-    }
-    .brk2 {
-        display: block;
-    }
-    .unBrk2 {
-        display: none;
     }
     h2 {
         text-align: center;
@@ -24,4 +21,3 @@ h1 {
         padding-left: 20px;
         height: 80%;
     }
-}
