@@ -1,23 +1,16 @@
 element {
 }
 body {
-  margin: 0;
-  display: grid;
-  grid-template-columns: auto 80% auto;
+  max-width: 900px;
+  margin: 0 auto;
 }
 body {
   margin: 0;
 }
-:root {
-  --main-color: #2e8b57;
-  --secondary-color: #add8e6;
-  --accent-color: #90ee90;
-  --default-light: #ffffff;
-  --default-dark: #2f2f2f;
-  --header-font: 'Exo 2', sans-serif;
-  --paragraph-font: 'Comfortaa', sans-serif;
-}
-html {
+<style>
+@import url('https://fonts.google.com/specimen/Merriweather?query=merr');
+</style> 
+{
   line-height: 1.15;
   -webkit-text-size-adjust: 100%;
 }
