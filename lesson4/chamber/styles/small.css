@@ -2,11 +2,21 @@ main {
     display: grid;
     grid-template-columns: 1fr;
 }
-section {
-    background-color: blue;
+.place-holder {
+    background-color: gray;
     padding: 10px;
     margin: 20px;
     margin-top: 5px;
+}
+.wrapper {
+    display: flex;
+  }
+  
+  .wrapper > div {
+    flex: 1;
+  }      
+footer {
+    background-color: gray;
 }
 h1 {
     justify-self: start;
