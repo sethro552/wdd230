@@ -1,7 +1,7 @@
 WebFont.load({
     google: {
         families: [
-            'Gugi'
+            'Acme'
         ]
     }
 })
