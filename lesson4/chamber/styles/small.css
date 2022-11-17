@@ -77,3 +77,37 @@ nav {
 .responsive a.ham::before {
 	content: "❌ ";
 }
+
+/* small css example
+*/
+nav button {
+    margin: .2rem 2vw;
+    backgroud: transparent;
+    border: none;
+    font-size: 2rem;
+    color: blue;
+}
+nav {
+    background-color: white;
+}
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+nav ul li a {
+    display: block;
+    padding: .8rem 2vw;
+    text-decoration: none;
+    color: green;
+    border-top: 1px solid rgba(0,0,0,0.5);
+    nav ul li a:hover {
+        background-color: rgba(0,0,0,0.3);
+    }
+    nav ul li.active a {
+        background-color: rgba(0,0,0,0.2);
+        color: white;
+    }
+    nav ul li.hover a {
+        background-color: rgba(0,0,0,0.2);
+    }
