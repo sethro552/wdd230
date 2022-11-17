@@ -1,4 +1,8 @@
 @media only screen and (min-width: 62em) {
+
+  nav ul li a{
+    padding: .5rem 1rem;
+  }
     main {
         grid-template-columns: 1fr 1fr 1fr;
         grid-template-rows: 1fr 1fr 1fr;
