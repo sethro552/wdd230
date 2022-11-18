@@ -82,7 +82,7 @@ nav {
 */
 nav button {
     margin: .2rem 2vw;
-    backgroud: transparent;
+    background: transparent;
     border: none;
     font-size: 2rem;
     color: blue;
@@ -101,6 +101,7 @@ nav ul li a {
     text-decoration: none;
     color: green;
     border-top: 1px solid rgba(0,0,0,0.5);
+
     nav ul li a:hover {
         background-color: rgba(0,0,0,0.3);
     }
