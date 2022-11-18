@@ -37,3 +37,13 @@ hambutton.addEventListener('click', () => {mainnav.classList.toggle('responsive'
 // To solve the mid resizing issue with responsive class on
 window.onresize = () => {if (window.innerWidth > 760) mainnav.classList.remove('responsive')};
 }
+
+function toggleMenu() {
+    document.getElementById("primaryNav").classList.toggle("open")
+    document.getElementById("hamburgerBtn").classList.toggle("open")
+
+}
+
+const x = document.getElementById('hamburgerBtn');
+x.oneclick = toggleMenu;
+

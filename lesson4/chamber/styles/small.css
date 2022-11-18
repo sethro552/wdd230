@@ -111,3 +111,9 @@ nav ul li a {
     nav ul li.hover a {
         background-color: rgba(0,0,0,0.2);
     }
+
+    #hamburgerBtn span:nth-child(1) {display: block;}
+    #hamburgerBtn span:nth-child(2) {display: none;}
+
+    #hamburgerBtn.open span:nth-child(1) {display: none;}
+    #hamburgerBtn.open span:nth-child(2) (display: none;)
