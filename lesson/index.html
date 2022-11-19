@@ -1,88 +1,49 @@
 <!DOCTYPE html>
-<html class="wf-gugi-n4-active wf-active" lang="en"><head>
+<html lang="en">
+<head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Seth Markle's WDD 230 Assignment Portal">
-    <title>WDD 230 - Course Homepage</title>
     <link rel="stylesheet" href="styles/normalize.css">
-    <link rel="stylesheet" href="styles/style.css">
-    <link rel="stylesheet" href="styles/medium.css" media="(max-width: 894px) and (min-width: 650px)">
-    <link rel="stylesheet" href="styles/small.css" media="(max-width: 649px)">
-    <link rel="stylesheet" href="styles/tiny.css" media="(max-width: 310px)">
+    <link rel="stylesheet" href="styles/small.css">
+    <link rel="stylesheet" href="styles/medium.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Gugi" media="all">
+    <title>WDD 230 - Course Homepage</title>
 </head>
 <body>
-    <header>
-        <h1>Seth <span class="brk1"></span> Markle</h1>
-        <img src="images/profile.png">
-    </header>
     <main>
-        <h2>WDD 230<span class="unBrk2">:</span><span class="brk2"></span> Assignment Portal</h2>
-        <ul onscroll="scrollDown(this)">
-            <li>Lesson 2:
+        <section class="container">
+            <div class="head">
+                <img src="images/profile.png">
+                <h1>Seth Markle</h1>
+            </div>
+            <div class="card">
+                <h2>WDD 230: Assigment Portal</h2>
+                <hr>
                 <ul>
-                    <li><a href="../lesson2/index.html">Design Principles</a></li>
+                    <li>Lesson 02: <a href="../lesson2/index.html">Design Principles</a></li>
+                    <li>Lesson 03: <a href="../lesson3/index.html">Site Planning Page</a></li>
+                    <li>Lesson 04: <a href="../lesson4/chamber/index.html">Flipton County Homepage</a></li>
+                    <li>Lesson 05: <a href="../lesson5/index.html">Flipton County Homepage (Continued)</a></li>
+                    <li>Lesson 06: <a href="../lesson6/index.html">Flipton County Homepage</a></li>
+                    <li>Lesson 07: <a href="../lesson7/index.html">title</a></li>
+                    <li>Lesson 08: <a href="../lesson8/index.html">title</a></li>
+                    <li>Lesson 09: <a href="../lesson9/index.html">title</a></li>
+                    <li>Lesson 10: <a href="../lesson10/index.html">Title</a></li>
                 </ul>
-            </li>
-            <li>Lesson 3:
-                <ul>
-                    <li><a href="../lesson3/index.html">Site Planning Page</a></li>
-                </ul>
-            </li>
-            <li>Lesson 4:
-                <ul>
-                    <li><a href="../lesson4/chamber/index.html">Flipton County Homepage</a></li>
-                </ul>
-            </li>
-            <li>Lesson 5:
-                <ul>
-                    <li><a href="../lesson5/index.html">Flipton County Homepage (Continued)</a></li>
-                </ul>
-            </li>
-            <li>
-                Lesson 6:
-                <ul>
-                    <li><a href="../lesson6/index.html">Flipton County Homepage</a></li>
-                </ul>
-            </li>
-            <li>
-                "Lesson 7:"
-                <ul>
-                    <li>
-                        <a href="../lesson7/index.html">title</a>
-                    </li>
-                </ul>
-            </li>
-            <li>
-                "Lesson 8:"
-                <ul>
-                    <li>
-                        <a href="../lesson8/index.html">title</a>
-                    </li>
-                </ul>
-            </li>
-            <li>
-                "Lesson 9:"
-                <ul>
-                    <li>
-                        <a href="../lesson9/index.html">title</a>
-                    </li>
-                </ul>
-            </li>
-            <li>
-                "Lesson 10:"
-                <ul>
-                    <li>
-                        <a href="../lesson10/index.html">Weather API</a>
-                    </li>
-                </ul>
-            </li>
+            </div>
+            <div class="footer">
+                <p class="footer-text">
+                    &copy; <span id="currentdate"></span> Seth Markle
+                </p>
+                <p>
+                    Last Update: <span id="update"></span>
+                </p>
+            </div>
+        </section>
     </main>
-    <footer>
-        ©<span id="year">2022</span> | Seth Markle <span class="brk1"></span><span class="unBrk1">|</span> Idaho | <a href="https://www.byui.edu/online" target="_blank">BYUI Online Learning</a><br>
-        <span id="updated">Last Updated: 10/17/2022 10:44:49 am</span>
-    </footer>
-    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
     <script src="scripts/script.js"></script>
 </body>
 </html>

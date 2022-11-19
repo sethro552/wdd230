@@ -1,27 +1,62 @@
-.brk1 {
-    display: block;
+body {
+    background: rgb(58,45,50);
+    background: color rgba(162,173,145,1) 1%;
+    font-family: "Gugi";
 }
-.unBrk1 {
-    display: none;
+.container {
+    background-color: #fefefe;
+}
+
+/* --------------------Card head----------------------------- */
+.head {
+    background-color: #A2AD91;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
 }
 h1 {
-    justify-self: start;
+    font-family: "Gugi";
+    font-size: 30px;
+    color: #fefefe;
+    text-align: center;
+    margin: 0;
 }
-@media screen and (max-width: 405px) {
-    header {
-        grid-template-columns: auto 54.8px;
-    }
-    .brk2 {
-        display: block;
-    }
-    .unBrk2 {
-        display: none;
-    }
-    h2 {
-        text-align: center;
-    }
-    ul {
-        padding-left: 20px;
-        height: 80%;
-    }
+img {
+    width: 100px;
+    height: 100px;
+    margin: 10px 35% 0;
+}
+/* --------------------Card body----------------------------- */
+.card {
+    padding: 20px 20px;
+    font-size: 20px;
+}
+h2 {
+    font-family: "Gugi";
+    font-size: 25px;
+    text-align: center;
+    margin: 30px 0;
+}
+a {
+    text-decoration: none;
+    color: #3A2D32;
+}
+a:hover{
+    font-weight: bold;
+    text-decoration: underline;
+}
+.card li {
+    padding: 5px 0;
+}
+/* -------------------Card footer---------------------------- */
+.footer {
+    background-color: #A2AD91;
+    color: #fefefe;
+    padding: 10px 20px;
+    text-align: center;
+}
+p {
+    margin-bottom: 0;
+    margin-top: 5px;
 }
