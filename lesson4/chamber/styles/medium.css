@@ -16,7 +16,14 @@ nav ul li a {
     main {
         grid-template-columns: 1fr 1fr;
         grid-template-rows: 1fr 1fr;
+		display: grid;
     }
+
+	#hero {}
+	#event {}
+	#weather {}
+	#news {}
+	
     .wrapper {
         display: flex;
       }
@@ -25,7 +32,7 @@ nav ul li a {
         flex: 1;
       }
       /* Media Query for medium+ views */
-@media only screen and (min-width: 32.5em) {
+
 	.navigation {
 		display: flex;
 	}
@@ -39,3 +46,4 @@ nav ul li a {
 	.navigation li:first-child {
 		display: none;
 	}
+}
