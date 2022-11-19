@@ -10,10 +10,10 @@ body {
 /* --------------------Card head----------------------------- */
 .head {
     background-color: #A2AD91;
-    padding: 20px;
+    padding: 10px;
     display: flex;
     flex-direction: column;
-    gap: 25px;
+    gap: 15px;
 }
 h1 {
     font-family: "Gugi";
@@ -29,14 +29,14 @@ img {
 }
 /* --------------------Card body----------------------------- */
 .card {
-    padding: 20px 20px;
+    padding: 10px 10px;
     font-size: 20px;
 }
 h2 {
     font-family: "Gugi";
     font-size: 25px;
     text-align: center;
-    margin: 30px 0;
+    margin: 10px 0;
 }
 a {
     text-decoration: none;
