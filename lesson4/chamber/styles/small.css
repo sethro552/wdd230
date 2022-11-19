@@ -42,7 +42,7 @@ nav ul.open {
 nav ul li a {
     color: #d59c41;
     text-decoration: none;
-    font-family: "Poppins";
+    font-family: "Gugi";
     border-top: 1px solid #d59c41;
     display: block;
     padding: .8rem 2vw;
@@ -91,7 +91,7 @@ nav ul li a:hover {
         box-sizing: border-box;
     }
     body {
-        font-family: "Roboto";
+        font-family: "Gugi";
     }
     /* -------------------------------header--------------------------------- */
     header {
