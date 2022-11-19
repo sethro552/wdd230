@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 body {
-    font-family: "Roboto";
+    font-family: "Gugi";
 }
 /* -------------------------------header--------------------------------- */
 header {
@@ -84,7 +84,8 @@ nav ul li a:hover {
 .weather {
     grid-column: 1;
     grid-row: 3/4;
-    * {
+}
+    {
         margin: 0;
         padding: 0;
         box-sizing: border-box;
