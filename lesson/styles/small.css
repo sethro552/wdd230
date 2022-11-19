@@ -1,6 +1,6 @@
 body {
-    background: rgb(58,45,50);
-    background: color rgba(162,173,145,1) 1%;
+    background: rgb(37,95,133);
+    background: color rgba(37,95,133,1) 1%;
     font-family: "Gugi";
 }
 .container {
@@ -9,7 +9,7 @@ body {
 
 /* --------------------Card head----------------------------- */
 .head {
-    background-color: #A2AD91;
+    background-color: #481D24;
     padding: 10px;
     display: flex;
     flex-direction: column;
@@ -40,7 +40,7 @@ h2 {
 }
 a {
     text-decoration: none;
-    color: #3A2D32;
+    color: #481D24;
 }
 a:hover{
     font-weight: bold;
@@ -51,7 +51,7 @@ a:hover{
 }
 /* -------------------Card footer---------------------------- */
 .footer {
-    background-color: #A2AD91;
+    background-color: #481D24;
     color: #fefefe;
     padding: 10px 20px;
     text-align: center;

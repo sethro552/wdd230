@@ -1,4 +1,4 @@
-@media only screen and (min-width: 32em) {
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -8,8 +8,8 @@ body {
 }
 /* -------------------------------header--------------------------------- */
 header {
-    background-color: #1c4839;
-    color: #d59c41;
+    background-color: #255F85;
+    color: #fefefe;
     padding: 15px;
 }
 .logo {
@@ -21,7 +21,7 @@ header {
 }
 #formatted-date {
     display: block;
-    background-color: #9f4900;
+    background-color: #481D24;
     text-align: center;
     font-weight: bold;
     font-size: 20px;
@@ -40,10 +40,10 @@ nav ul.open {
     display: block;
 }
 nav ul li a {
-    color: #d59c41;
+    color: #fefefe;
     text-decoration: none;
     font-family: "Gugi";
-    border-top: 1px solid #d59c41;
+    border-top: 1px solid #fefefe;
     display: block;
     padding: .8rem 2vw;
     font-weight: bold;
@@ -53,13 +53,13 @@ nav button {
     background: transparent;
     border: none;
     font-size: 2rem;
-    color: #d59c41;
+    color: #481D24;
 }
 nav button:hover {
-    color: #9f4900;
+    color: #481D24;
 }
 nav ul li a:hover {
-    background-color: #9f4900;
+    background-color: #481D24;
 }
 /* --------------------------------main---------------------------------- */
 .container {
@@ -105,7 +105,7 @@ nav ul li a:hover {
 }
 /* -------------------------------footer--------------------------------- */
 footer {
-    background-color: #1c4839;
+    background-color: #255F85;
     color: #d59c41;
     padding: 15px;
     text-align: center;
