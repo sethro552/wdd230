@@ -105,8 +105,8 @@ nav ul li a:hover {
 }
 /* -------------------------------footer--------------------------------- */
 footer {
-    background-color: #255F85;
-    color: #d59c41;
+    background-color: #481D24;
+    color: #fefefe;
     padding: 15px;
     text-align: center;
 }
@@ -114,11 +114,11 @@ footer {
     width: 80px;
 }
 hr {
-    color: #d59c41;
+    color: #fefefe;
 }
 .direction {
     text-decoration: none;
-    color: #d59c41;
+    color: #fefefe;
 }
 .footer_line {
     margin-top: 15px;
