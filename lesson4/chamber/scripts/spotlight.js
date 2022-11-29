@@ -1,4 +1,4 @@
-const spotlightRequestURL = 'https://jonatantroche.github.io/wdd230/09_lesson_9/directory/json/data.json';
+const spotlightRequestURL = 'https://sethro552.github.io/wdd230/';
 
 
 fetch(spotlightRequestURL)
