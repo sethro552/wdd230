@@ -14,55 +14,166 @@
     }
     /* --------------------------------main---------------------------------- */
     .container {
-        margin: 20px;
-        display: grid;
-        grid-template-columns: 20% 60% 20%;
-        grid-template-rows: 250px 250px 250px;
+        grid-template-columns: 18% 60% 20%;
+        grid-template-rows: 35vh 20vh 200px;
+        margin: 15px;
     }
-    .events{
-        grid-column: 1/2;
-        grid-row: 1/2;
-    }
-    .weather {
-        grid-column: 1/2;
-        grid-row: 2/3;
-    }
-    .join {
-        display: block;
-        grid-column: 1/2;
-        grid-row: 3/4;
-    }
+    /* hero */
     .hero {
         grid-column: 2/3;
         grid-row: 1/3;
     }
+    .hero img {
+        height: 56vh;
+    }
+    .hero button {
+        margin-right: 0;
+    }
+    /* events */
+    .events {
+        grid-column: 1/2;
+        grid-row: 1/2;
+        padding: 10px;
+    }
+    .events p {
+        font-size: 16px;
+    }
+    /* weather */
+    .weather {
+        grid-column: 1/2;
+        grid-row: 2/3;
+    }
+    .weather img {
+        width: 50px;
+    }
+    .weather_title h2 {
+        font-size: 15px;
+    }
+    .current_weather {
+        font-size: 15px;
+    }
+    .weather_information {
+        font-size: 13px;
+        padding: 9px 0 8px 0;
+    }
+    /* join */
+    .join {
+        grid-column: 1/2;
+        grid-row: 3/4;
+    }
+    /* news */
     .news {
         grid-column: 2/3;
         grid-row: 3/4;
     }
+    /* spotlight */
     .spotlight {
-        background-color: rgb(216, 212, 212);
         grid-column: 3/4;
         grid-row: 1/4;
-        margin: 10px;
-        display: grid;
-        grid-template-columns: 1fr;
         grid-template-rows: 1fr 1fr 1fr;
-    }   
-    .spotlight-2 {
-        grid-row: 2/3;
+        grid-template-columns: 100%;
+        padding: 5px;
+        gap: 5px;
     }
-    .spotlight-3 {
+    .spotlight p  {
+        font-size: 14px;
+    }
+    /* spotlight_1 */
+    .spotlight_1 img {
+        width: 100px;
+    }
+    .spotlight_1, .spotlight_2, .spotlight_3 h2 {
+        font-size: 20px;
+    }
+    .spotlight_1, .spotlight_2, .spotlight_3 .slogan {
+        font-size: 17px;
+        margin-bottom: 10px;
+    }
+    .spotlight_1, .spotlight_2, .spotlight_3 p {
+        font-size: 10px;
+    }
+    /* spotlight_2 */
+    .spotlight_2 img {
+        width: 150px;
+    }
+    /* spotlight_3 */
+    .spotlight_3 {
         display: block;
-        grid-row: 3/4;
+        text-align: center;
+        background-color: #fefefe;
+        padding: 10px;
+    }
+    .spotlight_3 p {
+        font-size: 14px;
+    }
+    .spotlight_3 img {
+        width: 100px;
+    }
+    .spotlight_3 h2 {
+        margin-bottom: 15px;
     }
     /* --------------------------------footer------------------- */
+    footer {
+        grid-template-rows: 1fr 30px 20px;
+    }
     hr {
         display: none;
     }
     .footer_line {
+        grid-column: 1/3;
+        grid-row: 2/3;
         display: flex;
         margin: 0 auto;
-        padding-top: 20px;
+        padding-top: 5px;
+    }
+    .weather_data {
+        grid-row: 3/4;
+    }
+    /* ---------------------------------------------discover page-------------------------------- */
+    .discover_container {
+        display: grid;
+        grid-template-columns: 1.5fr 300px;
+        gap: 10px;
+    }
+    .information {
+        grid-template-columns: 1fr;
+    }
+    .density img {
+        width: 600px;
+        margin-left: 100px;
+    }
+    .image_gallery h2 {
+        padding-left: 35px;
+    }
+    /* --------------------------------------Join Page------------------------------------------- */
+    .join {
+        grid-column: 1/2;
+        grid-row: 3/4;
+    }
+    .join button {
+        font-size: 20px;
+    }
+    .join_page {
+        padding: 20px 120px;
+    }
+    /* -----------------------------------Thanks page--------------------------------------------- */
+    .thanks_button{
+        margin-left: 41%;
+    }
+    /* -------------------------------------directory-------------------------------------------- */
+    .directory_container.list section{
+        /* float: left;
+        margin-left: 10px; */
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(320px, 400px));
+        grid-template-rows: 1fr 1fr;
+        text-align: center;
+    }
+    /* ------------------------------------contact page------------------------------------------ */
+    .contact_container {
+        padding: 30px 60px 30px 60px;
+    }
+    .map_container p {
+        font-size: 20px;
     }
 } 

@@ -46,10 +46,10 @@ nav ul.open {
     display: block;
 }
 nav ul li a {
-    color: #481D24;
+    color: #fefefe;
     text-decoration: none;
     font-family: "Gugi";
-    border-top: 1px solid #255F85;
+    border-top: 1px solid #fefefe;
     display: block;
     padding: .8rem 2vw;
     font-weight: bold;
@@ -62,10 +62,10 @@ nav button {
     color: #fefefe;
 }
 nav button:hover {
-    color: #fefefe;
+    color: #481D24;
 }
 nav ul li a:hover {
-    background-color: #fefefe;
+    background-color: #481D24;
 }
 /* --------------------------------main---------------------------------- */
 /* hero */
@@ -84,7 +84,7 @@ nav ul li a:hover {
     font-weight: bold;
     padding: 0 5px;
     font-size: 25px;
-    color: #d59c41;
+    color: #255F85;
     font-weight: bolder;
     background-color: #f4e9e3;
 }
@@ -95,8 +95,8 @@ nav ul li a:hover {
 }
 .hero button {
     border: none;
-    background-color: black;
-    color: black;
+    background-color: #fefefe;
+    color: #255F85;
     font-size: 30px;
     padding: 10px;
     font-weight: bold;
@@ -120,14 +120,14 @@ nav ul li a:hover {
 .weather {
     text-align: center;
     padding: 0;
-    background-color: #fefefefe;
+    background-color: #fefefe;
 }
 .weather img {
     width: 70px;
 }
 figcaption {
     padding-bottom: 10px;
-    color: #481D24;
+    color: black;
 }
 .weather_information {
     background-color: #255F85;
@@ -158,7 +158,7 @@ figcaption {
 /* spotlight */
 .spotlight {
     margin: 10px;
-    background-color: #fefefe;
+    background-color: #255F85;
     padding: 15px;
 }
 .spotlight hr {
