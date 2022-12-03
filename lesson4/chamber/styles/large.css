@@ -130,3 +130,14 @@
         grid-row: 3/4;
     }
 }
+/* Join Page */
+.join {
+    grid-column: 1/2;
+    grid-row: 3/4;
+}
+.join button {
+    font-size: 20px;
+}
+.join_page {
+    padding: 20px 120px;
+}

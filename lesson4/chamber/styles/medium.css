@@ -112,3 +112,14 @@
         grid-column: 1/3;
     }
 }
+    /* Join Page */
+    .join_page {
+        display: grid;
+        grid-template-columns: 49% 2% 49%;
+        grid-template-rows: 1fr;
+        padding: 10px;
+    }
+    .form_container {
+        grid-column: 1/2;
+        grid-row: 1/2;
+    }
