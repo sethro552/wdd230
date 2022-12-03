@@ -5,7 +5,7 @@ const maxTemp = document.querySelector('#max-temp');
 const weatherIcon = document.querySelector('#weather-icon');
 const captionDesc = document.querySelector('figcaption');
 const windSpeed = document.querySelector('#wind_speed');
-const url = "https://api.openweathermap.org/data/2.5/weather?id=3911925&units=imperial&appid=57d16f210f6741a79b3b085f67258384";
+
 
 async function apiFetch() {
     try {
@@ -33,7 +33,6 @@ function  displayResults(weatherData) {
     chill.innerHTML = windchillData(tempN, weatherData.wind.speed.toFixed(0));
 // --------------------------------- icon --------------------------------------------------
 
-    const iconsrc = `https://openweathermap.org/img/w/${weatherData.weather[0].icon}.png`;
     const desc = weatherData.weather[0].description;
 
     weatherIcon.setAttribute('src', iconsrc);
