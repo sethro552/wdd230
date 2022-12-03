@@ -2,14 +2,12 @@ let banner;
 const currentDay = new Date().getDay();
 
 switch(currentDay) {
-    case 0:
-        banner = "";
-        break;
+
     case 1:
-        banner = "🤝🏼 Come join us for the chamber meet and greet Wensday 07:00 p.m";
+        banner = "🤝🏼 Stop by during our business hours 8:00am - 5:30pm Monday | Friday";
         break; 
     case 2:
-        banner = "🤝🏼 Come join us for the chamber meet and greet Wensday 07:00 p.m";
+        banner = "🤝🏼 ";
         break;
     case 3:
         banner = "";
