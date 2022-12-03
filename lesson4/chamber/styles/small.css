@@ -112,9 +112,10 @@ nav ul li a:hover {
     background-color: #255F85;
     padding: 20px;
     text-align: center;
+    color:white
 }
 .events img {
-    width: 50%;
+    width: 90%;
 }
 /* weather */
 .weather {
@@ -166,7 +167,7 @@ figcaption {
 }
 /* spotlight_1 */
 .spotlight_1 {
-    background-color: #fefefe;
+    background-color: #255F85;
     border-bottom: 1px solid #481D24;
     text-align: center;
     padding: 15px;
@@ -177,7 +178,7 @@ figcaption {
 }
 /* spotlight_2 */
 .spotlight_2 {
-    background-color: #fefefe;
+    background-color: #255F85;
     text-align: center;
     padding: 15px;
 }
