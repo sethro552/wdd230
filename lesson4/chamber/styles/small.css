@@ -10,7 +10,7 @@ h2 {
     font-family: "Gugi";
     color: white;
 }
-/* -------------------------------header--------------------------------- */
+/* header */
 header {
     background-color: #255F85;
     color: #fefefe;
@@ -34,7 +34,7 @@ header {
     padding: 10px;
     text-align: center;
 }
-/* --------------------------------nav----------------------------------- */
+/* nav */
 nav ul {
     list-style: none;
     font-size: 25px;
@@ -67,7 +67,7 @@ nav button:hover {
 nav ul li a:hover {
     background-color: #481D24;
 }
-/* --------------------------------main---------------------------------- */
+/* main */
 /* hero */
 .hero {
     position: relative;
@@ -189,7 +189,7 @@ figcaption {
 .spotlight_3 {
     display: none;
 }
-/* -------------------------------footer--------------------------------- */
+/* footer */
 footer {
     background-color: #255F85;
     color: #fefefe;
@@ -210,38 +210,7 @@ hr {
     margin-top: 15px;
 }
 
-/* --------------------------------------discover page------------------------------------------- */
-.discover_main {
-    padding: 10px;
-}
-.discover_main h2 {
-    margin-top: 20px;
-    margin-bottom: 10px;
-}
-.discover_container img {
-    width: 100%;
-    border-radius: 10px;
-}
-.information img {
-    margin: 15px 0;
-}
-.image_gallery img {
-    margin-top: 20px;
-}
-.img1 {
-    width: 50%;
-}
-.visit {
-    width: 100%;
-    background-color: #255F85;
-    color: #fefefe;
-    padding: 15px;
-    margin: 15px 0;
-    font-family: "Gugi";
-    text-align: center;
-    font-weight: bold;
-}
-/* ---------------------------------------Join Page---------------------------------------------- */
+/* Join Page */
 .join_page {
     display: block;
 }
@@ -302,125 +271,4 @@ label.top input:required {
 }
 .membership_container {
     display: none;
-}
-/* --------------------------------------thanks page--------------------------------------------- */
-.thanks_container {
-    display: flex;
-    flex-direction: column;
-    height: 100%;
-    position: absolute;
-    padding: 50px;
-    color: #fefefe;
-    font-family: "Gugi";
-    background-color: #255F85;
-}
-.thanks_img {
-    width: 160px;
-}
-.thanks_h1 {
-    color: #fefefe;
-    margin: 30px 0;
-}
-.thanks_p {
-    font-size: 20px;
-}
-.thanks_page button {
-    color: #fefefe;
-    background-color: #fefefe;
-    font-family: "Gugi";
-    font-size: 20px;
-    padding: 15px;
-    border: none;
-    width: fit-content;
-    border-radius: 25px;
-    margin-top: 50px;
-}
-.thanks_button:hover {
-    background-color: #fefefe;
-    color: #481D24;
-    cursor: pointer;
-}
-/* ----------------------------------Directory--------------------------------------------------- */
-.directory {
-    padding: 15px;
-}
-/* --------title---------------- */
-.directory h1 {
-    color: #fefefe;
-}
-/* ------buttons------------------ */
-.grid_list_button {
-    text-align: center;
-    margin: 30px 0;
-}
-#list, #grid {
-    font-size: 40px;
-    color: #481D24;
-    border: 2px solid #481D24;
-    border-radius: 10px;
-    padding: 5px 10px;
-}
-#list {
-    margin-right: 10px;
-}
-#grid {
-    margin-left: 10px;
-}
-/* -----cards serction---------- */
-.directory img {
-    width: 150px;
-}
-.directory_container.grid {
-    text-align: center;
-}
-/* ----------cards-------------- */
-.cards section {
-    margin: 15px 0;
-    padding: 15px;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-}
-/* -------------list change---------- */
-.directory_container.list img{
-    display: none;
-}
-.directory_container.list h2 {
-    color: black;
-    font-size: 17px;
-}
-.directory_container.list section {
-    box-shadow: none;
-}
-.directory_container.list section:nth-child(even) {
-    background-color: #fefefe;
-}
-/* ----------------------------------------------- contact page ---------------------------------- */
-.contact_container {
-    padding: 10px;
-    background-color: #fefefe;
-}
-.contact_container h1 {
-    padding: 15px 0;
-    color: #fefefe;
-}
-.map_container {
-    margin: 30px 0 20px 0;
-}
-iframe {
-    width: 100%;
-    padding-bottom: 20px;
-}
-.sendbtn {
-    background-color: #481D24;
-    font-size: 20px;
-    padding: 10px 15px;
-    margin-top: 15px;
-    color: #fefefe;
-    border: none;
-    border-radius: 5px;
-}
-.sendbtn:hover {
-    background-color: #fefefe;
-    color: #255F85;
-    transition: 0.5s;
-    cursor: pointer;
 }

@@ -11,13 +11,13 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Gugi" media="all">
-    <title>Directory Page</title>
+    <title>Join Page</title>
 </head>
 <body>
     <header>
         <img class="logo" src="/images/index.png" alt="logo">
         <br>
-        <h1>Directory Page</h1>
+        <h1>Join Page</h1>
         <div id="formatted-date"></div>
         <div class="social_media">
             <a href="http://www.facebook.com" target="_blank"><img src="https://cdn.glitch.com/a1a7d992-1c34-42ad-984a-c6dc42449471%2Ffacebook.png?1538411363027" alt="facebook icon"></a>
@@ -36,7 +36,76 @@
         <div id="banner"></div>
     </header>
 
-    
+    <body>
+        <main class="join_page">
+            <div class="form_container">
+                <h1 class="form_title">Join Us</h1>
+                <form method="get" action="thanks.html">
+                     <fieldset>
+                        <legend>Profile Creation</legend>
+                        <label class="top">First Name* <input type="text" name="fname" required placeholder="First"></label>
+                        <label class="top">Last Name* <input type="text" name="lname" required placeholder="Last"></label>
+                        <label class="top">Business Position Title <input type="text" minlength="7" placeholder= "Your Title"></label>
+                        <label class="top">Email* <input type="email" name="email" placeholder="youremail@xxxxx.com" required></label>
+                        <label class="top" for="phone">Phone* <input type="tel" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}" name="phone" placeholder="xxx-xxx-xxxx" required></label>
+                        <label class="top">Business Name <input type="text" name="business" placeholder="Your Business"></label>
+                    </fieldset>
+                    <fieldset>
+                        <legend>Select your membership option.</legend>
+                        <label class="chose"><input type="radio" name="membership">NP Membership</label>
+                        <label class="chose"><input type="radio" name="membership">Bronze Membership</label>
+                        <label class="chose"><input type="radio" name="membership">Silver Membership</label>
+                        <label class="chose"><input type="radio" name="membership">Gold Membership</label>
+                    </fieldset>
+                    <fieldset>
+                        <legend>Tell us about your business.</legend>
+                        <textarea name="area" id="description" rows="10"></textarea>
+                    </fieldset>
+                    <input type="hidden" id="full.datev" name="full-date" value="">
+                    <input type="submit" value="Send my appication" class="submitbtn">
+                </form>
+            </div>
+            <div class="membership_container">
+                <h1 class="member">Membership Details</h1>
+                <div class="npmember">
+                    <h2>NP Membership</h2>
+                    <ul>
+                        <li>NP Membership is for nonprofit organizations and no fee will be required.</li>
+                        <li>You will only have access to our free services.</li>
+                    </ul>
+                </div>
+                <div class="bronzemember">
+                    <h2>Bonze Membership</h2>
+                    <ul>
+                        <li>With the bronze membership, you are part of our group</li>
+                        <li>You have a 5% discount on all our companies members</li>
+                        <li>Access to selected conferences and talks</li>
+                        <li>Price: 50bs per month</li>
+                    </ul>
+                </div>
+                <div class="silvermember">
+                    <h2>Silver Membership</h2>
+                    <ul>
+                        <li>You will have a 7% discount on all our companies members</li>
+                        <li>Support with our experts, 2 sessions per month to help to grow your bussines</li>
+                        <li>Access to all conferences and talks</li>
+                        <li>Price: 100bs per month</li>
+                    </ul>
+                </div>
+                <div class="goldmember">
+                    <h2>Gold Membership</h2>
+                    <ul>
+                        <li>You will have a 10% and 15% discount in all our companies members</li>
+                        <li>Support with a complete team to solve problems and archive goals</li>
+                        <li>Meetings, conferences, and talks with special guests</li>
+                        <li>As a part of our gold membership, you are part of a group of investors</li>
+                        <li>Enabled our investment funds and loans</li>
+                        <li>Price: 200bs per month</li>
+                    </ul>
+                </div>
+            </div>
+        </main>
+    </body>   
 
     <footer>
         <div class="information">
