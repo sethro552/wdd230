@@ -1,9 +1,9 @@
 @media only screen and (min-width: 36.4em) {
-    /* ----------------header-------------------------- */
+    /* header */
     #formatted-date {
         padding: 5px;
     }
-    /* -----------------main--------------------------- */
+    /* main */
     .container {
         display: grid;
         grid-template-columns: 60% 40%;
@@ -60,7 +60,7 @@
         padding: 15px;
     }
     .join button {
-        font-family: "poppins";
+        font-family: "Gugi";
         border: none;
         background-color: #225485;
         color: #fefefe;
@@ -90,7 +90,7 @@
     .weather_title h2 {
         font-size: 20px;
     }
-    /* --------------------------footer-------------------------------- */
+    /* footer */
     footer {
         display: grid;
         grid-template-columns: 1fr 1fr;

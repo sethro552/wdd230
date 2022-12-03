@@ -1,5 +1,5 @@
 @media only screen and (min-width: 950px) {
-    /* -------------------------------header--------------------------------- */
+    /* header */
     nav button {
         display: none;
     }
@@ -12,7 +12,7 @@
     nav ul li a {
         border-top: none;
     }
-    /* --------------------------------main---------------------------------- */
+    /* main */
     .container {
         grid-template-columns: 18% 60% 20%;
         grid-template-rows: 35vh 20vh 200px;
