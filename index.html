@@ -30,20 +30,19 @@
                 <li>Lesson 11: <a href="/lesson11/">Title</a></li>
             </ul>
         </main>
-        <footer>
-            <p>&copy; <span id="currentYear"></span> | Seth Markle <a target="_blank"
-                    href="https://www.byui.edu/online">BYUI Online Learning</a></p>
-            <p>Last Updated: <span id="updatedDate"></span></p>
+        <footer class="footer">
+            <p>
+                &copy; 2023 | Seth Markle | Ohio | <span>BYUI Online Learning</span>
+            </p>
+            <p class="last-update" id="lastModified"></p>
         </footer>
-    </div>
-    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
-    <script>
-        WebFont.load({
+        <script src="/scripts/script.js" defer></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+        <script>
+            WebFont.load({
             google: {
-                families: ['Montserrat:300,400,700']
-                }
-            });
-    </script>
-    <script src="/scripts/script.js"></script>
-</body>
-</html>
+                families: ['Roboto'] 
+            }});
+        </script>
+    </body>
+    </html>
