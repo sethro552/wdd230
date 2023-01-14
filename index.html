@@ -40,9 +40,12 @@
             </p>
             <p class="last-update" id="lastModified"></p>
         </footer>
-        <script src="/scripts/script.js" defer></script>
-        <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+        <h1>Demo: Current Date</h1>
+        <p id="p1"></p>
         <script>
+            var date = new Date();
+            document.getElementById("p1").innerHTML = date;
+        </script>
             WebFont.load({
             google: {
                 families: ['Gugi'] 
