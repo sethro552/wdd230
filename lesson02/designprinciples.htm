@@ -8,10 +8,10 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Gugi&display=swap" rel="stylesheet"> 
-    <title>Design Principles</title>
     <link rel="stylesheet" href="/styles/normalize.css">
     <link rel="stylesheet" href="/styles/medium.css">
     <link rel="stylesheet" href="/styles/main.css">
+    <title>Design Principles</title>
 </head>
 <body>
     <div class="container">
@@ -21,33 +21,54 @@
         </header>
         <main>
             <h1>Design Principles</h1>
-            <div class="grid">
-                <div class="card">
-                    <h2>Visual Hierarchy</h2>
-                    <img src="/images/byui-edu-rule-of-thirds.jpg" alt="Dropbox screenshot">
-                    <p>Visual Hierarchy is well exemplified here because we can distinguish easily which content is more impotant</p>
-                    <p>We could identify which is the title and where is the navigation and where the rest of the content</p>
-                </div>
-                <div class="card">
-                    <h2>White Space & Clean Design</h2>
-                    <img src="/images/github.jpg" alt="Dribbble screenshot">
-                    <p>Here we can see how there is enough space between elements.</p>
-                    <p>Enough white space makes the design cleaner and easier to read</p>
-                </div>
-                <div class="card">
-                    <h2>Hick's Law</h2>
-                    <img src="/images/googlefonts.jpg" alt="Gearbest screenshot">
-                    <p>Gearbest it's a good example of Hick's law because instead of having a large number of options and lists, 
-                        They use simple icons to represent categories and make the user's choice less complicated.</p>
-                </div>
-            </div>
-        </main>
-        <footer>
-            <p>&copy; <span id="currentYear"></span> | Christian Soldevilla | Puno, Peru | <a target="_blank"
-                    href="https://www.byui.edu/online">BYUI Online Learning</a></p>
-            <p>Last Updated: <span id="updatedDate"></span></p>
-        </footer>
-    </div>
-    <script src="../js/script.js"></script>
-</body>
-</html>
+            <main>
+                <section class="section1">
+                  <div>
+                    <h3>Contrast</h3>
+                  </div>
+                  <p>BYU-Idaho Home Page</p>
+                  <p><a href="https://www.byui.edu/" target="blank">byui.edu</a></p>
+                  <img src="/images/byui-edu-rule-of-thirds.jpg" alt="Homescreen for byui.edu"/>
+                  <p>
+                    
+                  </p>
+                </section>
+          
+                <section class="section2">
+                  <div>
+                    <h3>Heirarchy</h3>
+                  </div>
+                  <p>Unity</p>
+                  <p><a href="https://github.com/" target="blank">github.com</a></p>
+                  <img src="/images/github.jpg" alt="Homescreen for github.com"/>
+                  <p>
+                    
+                  </p>
+                </section>
+          
+                <section class="section3">
+                  <div>
+                    <h3>Rule of Thirds</h3>
+                  </div>
+                  <p>Google Fonts</p>
+                  <p><a href="https://fonts.google.com/" target="blank">fonts.google.com</a></p>
+                  <img src="/images/googlefonts.jpg" alt="Homescreen for Google Fonts"/>
+                  <p>
+                    
+                  </p>
+                </section>
+              </main>
+              <footer class="footer">
+                <p>
+                    &copy; Winter Term 2023 | Seth Markle | Ohio | <span>BYUI Online Learning</span>
+                </p>
+                <p class="last-update" id="lastModified"></p>
+            </footer>
+            <h2>Last Updated</h2>
+            <p id="p1"></p>
+            <script>
+                var date = new Date();
+                document.getElementById("p1").innerHTML = date;
+            </script>
+        </body>
+        </html>
