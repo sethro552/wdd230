@@ -1,1 +1,7 @@
-@media query (min-width: 32.5em)
+@media screen and (min-width: 32.5em)
+    h1 {
+        font-size: 2.5rem;
+        margin: 1rem;
+        color: navy;
+    }
+}
