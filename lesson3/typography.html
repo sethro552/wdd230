@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Seth Markle">
+    <meta name="description" content="home page setup for wdd 230">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Gugi&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="/styles/small.css">
+    <link rel="stylesheet" href="/styles/medium.css">
+    <link rel="stylesheet" href="/styles/large.css">
+    <link rel="stylesheet" href="/styles/normalize.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Typography</h1>
+        </header>
+        <main>
+            <nav>
+                <ul>
+                    <li>
+                        <a href="index.html">Home</a>
+                    </li>
+                    <li>
+                        <a href="target-audience.html">Target Audience and Scenarios</a>
+                    </li>
+                    <li>
+                        <a href="sitemap.html">Site Map</a>
+                    </li>
+                    <li>
+                        <a href="colorscheme.html">Color Scheme</a>
+                    </li>
+                    <li>
+                        <a href="typography.html">Typography</a>
+                    </li>
+                </ul>
+            </nav>
+            <section class="typography">
+                <p>
+                    The font family that I selected for this website is Gugi.  I selected this font because I like how it has a futureistic look.  There
+                    is a chance I may change it later because it does get harder to read as it  gets smaller.  This does happen with most fonts though.
+                </p>
+                <div>
+                    <h2>Gugi Examples by Heading Type</h2>
+                    <ul>
+                        <li>
+                            <h1>Heading 1</h1>
+                        </li>
+                        <li>
+                            <h2>Heading 2</h2>
+                        </li>
+                        <li>
+                            <h3>Heading 3</h3>
+                        </li>
+                    </ul>
+                </div>
+            </section>
+        </main>
+            <footer class="footer">
+                <p>
+                    &copy; Winter Term 2022 | Seth Markle | Ohio | <span>BYUI Online Learning</span>
+                </p>
+                <p class="last-update" id="lastModified"></p>
+            </footer>
+            <h2>Last Updated</h2>
+            <p id="p1"></p>
+            <script>
+                var date = new Date();
+                document.getElementById("p1").innerHTML = date;
+            </script>
+        </body>
+        </html>
