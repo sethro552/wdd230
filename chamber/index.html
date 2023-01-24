@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Seth Markle">
+    <meta name="description" content="home page setup for wdd 230">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Gugi&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="/styles/small.css">
+    <link rel="stylesheet" href="/styles/medium.css">
+    <link rel="stylesheet" href="/styles/large.css">
+    <link rel="stylesheet" href="/styles/normalize.css">
+    <title>Seth Markle's Assignment Portal</title>
+</head>
+<body>    
+    <header>
+        <img src="/chamberimages/index.png" alt="">
+        <div class="title">
+            <h1>Real Weather Today</h1>
+            <h3>Whenever and Wherever You Need</h3>
+        </div>
+    </header>
+    <nav>
+        <ul class="navigation">
+            <li><a href="#" id="hamBtn">&#9776; Menu</a></li>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="#"></a></li>
+            <li><a href="#"></a></li>
+            <li><a href="#"></a></li>
+            <li><a href="#"></a></li>
+            <li><a href="#"></a></li>
+        </ul>
+    </nav>
+    <main>
+        <h2>Flipton News</h2>
+        <div class="temporary">
+            <p></p>
+        </div>
+        <div class="temporary">
+            <p></p>
+        </div>
+        <div class="temporary">
+            <p></p>
+        </div>
+        <div class="temporary">
+            <p></p>
+        </div>
+    </main>
+    <footer class="footer">
+        <p>
+            &copy; Winter Term 2022 | Seth Markle | Ohio | <span>BYUI Online Learning</span>
+        </p>
+        <p class="last-update" id="lastModified"></p>
+    </footer>
+    <h2>Last Updated</h2>
+    <p id="p1"></p>
+    <script>
+        var date = new Date();
+        document.getElementById("p1").innerHTML = date;
+    </script>
+</body>
+</html>
