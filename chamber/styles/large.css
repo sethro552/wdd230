@@ -1,0 +1,9 @@
+@media only screen and (min-width: 64rem) {
+    header,
+    nav,
+    main,
+    footer #contact {
+      padding-left: 20%;
+      padding-right: 20%;
+    }
+  } 
