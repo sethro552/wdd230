@@ -41,6 +41,17 @@ html {
     margin: 0;
     font-weight: 100;
   }
+
+  .social {
+    margin: auto auto;
+    display: flex;
+    flex-direction: column;
+    grid-column: 2;
+}
+
+.social img {
+    width: 30px;
+}
   
   #menuBtn {
     width: 30px;

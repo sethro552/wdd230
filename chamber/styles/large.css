@@ -9,13 +9,11 @@
       padding-right: 20%;
     }
     :root {
-      /*colors: */
       --primary-color: #031D44;
       --secondary-color: #04395E;
       --accent1-color: #70A288;
       --accent2-color: #DAB785;
       --typography1-color: #D5896F;
-      /*fonts: */
       --heading-font: Gugi, sans-serif;
      }
      
@@ -48,14 +46,29 @@
        border-radius: 10px 10px 0px 0px;
      
      }
-     .section1{
+     .hero{
       grid-column: 1/2;
      }
-     .section2{
+     .news{
       grid-column: 2/3;
      }
-     .section3{
+     .join{
       grid-column: 3/4;
+     }
+     .event{
+      grid-column: 1/2;
+     }
+     .weather{
+      grid-column: 1/2;
+     }
+     .spotlight1{
+      grid-column: 1/2;
+     }
+     .spotlight2{
+      grid-column: 1/2;
+     }
+     .spotlight3{
+      grid-column: 1/2;
      }
      
      section h3{
