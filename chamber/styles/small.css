@@ -104,8 +104,8 @@ em {
 }
 
 .navigation a:hover {
-    color: #16302B;
-    background-color: #BBC5AA;
+    color: #70A288;
+    background-color: #70A288;
 }
 
 #menu::before {
@@ -141,7 +141,7 @@ em {
     display: none;
 }
 
-#spotlights div {
+#spotlight div {
     margin: auto;
     padding: 5% 0%;
     width: 95%;
