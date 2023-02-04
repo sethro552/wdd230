@@ -1,117 +1,101 @@
-@media only screen and (min-width: 64rem) 
-{
-    header,
-    nav,
-    main,
-    footer 
-    #contact {
-      padding-left: 20%;
-      padding-right: 20%;
+@media (min-width: 1000px) {
+
+    .main-logo h1 {
+        font-size: 2.5em;
     }
-    :root {
-      --primary-color: #031D44;
-      --secondary-color: #04395E;
-      --accent1-color: #70A288;
-      --accent2-color: #DAB785;
-      --typography1-color: #D5896F;
-      --heading-font: Gugi, sans-serif;
-     }
-     
-     body{
-      max-width: 80%;
-      margin: auto;
-      font-family: var(--heading-font);
-     
-     }
-     
-     header{
-      background-color: var(--secondary-color);
-      color: var(--accent1-color);
-      text-align: center;
-      padding: 3px 0px;
-      margin-top: 50px;
-     
-     }
-     
-     main{
-      display: grid;
-      grid-template-columns: repeat(3, 1fr);
-      column-gap: 50px;
-      padding: 50px 50px;
-     
-     
-     }
-     section{
-       border: 1px solid var(--secondary-color);
-       border-radius: 10px 10px 0px 0px;
-     
-     }
-     .hero{
-      grid-column: 1/2;
-     }
-     .news{
-      grid-column: 2/3;
-     }
-     .join{
-      grid-column: 3/4;
-     }
-     .event{
-      grid-column: 1/2;
-     }
-     .weather{
-      grid-column: 1/2;
-     }
-     .spotlight1{
-      grid-column: 1/2;
-     }
-     .spotlight2{
-      grid-column: 1/2;
-     }
-     .spotlight3{
-      grid-column: 1/2;
-     }
-     
-     section h3{
-      background-color: var(--secondary-color);
-      color: var(--accent1-color);
-      text-align: center;
-      padding: 6px 0px;
-      margin-top: -1px;
-      border: 1px solid var(--secondary-color);
-      border-radius: 10px 10px 0px 0px;
-     
-     }
-     section p{
-      padding: 0px 10px;
-     }
-     section img{
-      display: block;
-      margin: auto;
-      border: 2px solid black;
-      width: 95%;
-     }
-     
-     footer{
-      margin-bottom: 50px;
-      background-color: var(--secondary-color);
-      color: var(--accent1-color);
-      font-family: var(--heading-font);
-      text-align: center;
-     }
-     
-     .footer-info {
-      display: flex;
-      flex-flow: row wrap;
-      justify-content: center;
-     }
-     
-     .footer-info p {
-      padding-left: 20px;
-      padding-right: 20px;
-      font-size: 1.5em;
-     }
-     
-     #date-mod {
-      font-size: 1.2em;
-     }
-  }
+
+    html {
+        max-width: 1100px;
+        margin: auto;
+    }
+
+    .navigation {
+        display: flex;
+    }
+
+    .navigation li {
+        display: block;
+        flex: 1 1 auto;
+    }
+
+    .navigation a {
+        text-align: center;
+        padding: 10%;
+    }
+
+    .navigation li:first-child {
+        display: none;
+    }
+
+    .social {
+        display: block;
+    }
+
+    .social img {
+        width: 50px;
+    }
+
+    .main-logo img {
+        width: 175px;
+        padding: 20px 5px 5px;
+    }
+
+    .main-logo section {
+        margin: auto;
+        width: 50%;
+        padding: 10px;
+    }
+
+    footer p br:nth-of-type(3) {
+        display: none;
+    }
+
+    footer img {
+        width: 200px;
+    }
+
+    main {
+        grid-template-rows: 300px 300px 300px;
+    }
+
+    #hero {
+        grid-column: 2/4;
+        grid-row: 1/3;
+    }
+
+    #news {
+        grid-column: 2/4;
+        grid-row: 3;
+    }
+
+    #spotlights {
+        display: block;
+        grid-column: 4/5;
+        grid-row: 1/4;
+    }
+
+    #spotlights div {
+        height: 28%;
+        margin-top: 10px;
+    }
+
+    #spotlights div:nth-of-type(3) {
+        display: block;
+    }
+
+    #join {
+        display: block;
+        grid-column: 1/2;
+        grid-row: 3;
+    }
+
+    #event {
+        grid-column: 1/2;
+        grid-row: 1/2;
+    }
+
+    #weather {
+        grid-column: 1;
+        grid-row: 2;
+    }
+}
