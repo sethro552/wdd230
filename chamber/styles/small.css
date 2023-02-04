@@ -79,6 +79,7 @@ em {
 }
 
 .navigation {
+    color: #D5896F;
     list-style: none;
     padding: 0px;
     margin: 0;
@@ -130,10 +131,11 @@ em {
 #spotlight1,
 #spotlight2,
 #spotlight3 {
+    color: #D5896F;
     margin: 3% auto;
     padding: 10% 0%;
     width: 100%;
-    border: black solid 2px;
+    border: #70A288 solid 2px;
     text-align: center;
 }
 
