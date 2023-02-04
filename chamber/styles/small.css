@@ -10,15 +10,15 @@
 }
 
 img {
-    width: 200px;
-    padding: 1em;
-    margin: auto
+    width: 250px;
 }
 
 header {
     display: grid;
     background-color: var(--primary-color);
-    color: var(--typography1-color)
+    padding: 2em;
+    color: var(--typography1-color);
+    margin: 25px;
 }
 
 html,

@@ -53,7 +53,7 @@
     #spotlights {
         margin: 1% auto;
         width: 100%;
-        border: white solid 5px;
+        border: black solid 2px;
         text-align: center;
     }
 
@@ -69,11 +69,13 @@
         display: flex;
         grid-row: 1/2;
         grid-row: 1;
+        display: flex;
     }
 
     footer section:nth-of-type(2) {
         grid-row: 2/3;
         grid-row: 1;
+        display: flex;
     }
 
     footer hr {
@@ -83,6 +85,7 @@
     footer section:nth-of-type(3) {
         grid-column: 1/3;
         grid-row: 3;
+        display: flex;
     }
 
     footer p br:nth-of-type(1),
