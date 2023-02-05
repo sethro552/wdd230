@@ -13,6 +13,21 @@
     <link rel="stylesheet" href="../chamber/styles/large.css">
     <link rel="stylesheet" href="../chamber/styles/normalize.css">
     <title>Seth Markle's Assignment Portal</title>
+    <style>
+        .grid-container {
+          display: grid;
+          grid-template-columns: auto auto auto;
+          background-color: #04395E;
+          padding: 10px;
+        }
+        .grid-item {
+          background-color: white;
+          border: 2px solid #70A288;
+          padding: 125px;
+          font-size: 20px;
+          text-align: center;
+        }
+    </style>
 </head>
 <body>    
     <header>
@@ -43,14 +58,17 @@
         </ul>
     </nav>
     <main>
-        <div id="hero">Hero with site name and call to action</div>
-        <div id="news">News</div>
-        <div id="join">Join</div>
-        <div id="event">Event</div>
-        <div id="weather">Weather</div>
-        <div id="spotlight1">Spotlight 1</div>
-        <div id="spotlight2">Spotlight 2</div>
-        <div id="spotlight3">Spotlight 3</div>
+
+        <div class="grid-container">
+            <div class="grid-item">Event</div>
+            <div class="grid-item">Hero with site name and call to action</div>
+            <div class="grid-item">Spotlight 1</div>  
+            <div class="grid-item">Weather</div>
+            <div class="grid-item">Spotlight 2</div>
+            <div class="grid-item">Join</div>  
+            <div class="grid-item">News Release</div>
+            <div class="grid-item">Spotlight 3</div>
+          </div>
     </main>
     <footer class="footer">
         <p>
