@@ -6,7 +6,8 @@
     <meta name="author" content="Seth Markle">
     <meta name="description" content="home page setup for wdd 230">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link href="https://fonts.googleapis.com/css2?family=Gugi&display=swap" rel="stylesheet"> 
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Gugi&display=swap" rel="stylesheet">    
     <link rel="icon" href="/chamber/images/favicon.ico">
     <link rel="stylesheet" href="styles/small.css">
     <link rel="stylesheet" href="styles/medium.css">
@@ -36,16 +37,16 @@
             </ul>
         </main>
         <footer class="footer">
+            <h2>Last Updated</h2>
             <p>
                 &copy; Winter Term 2022 | Seth Markle | Ohio | <span>BYUI Online Learning</span>
             </p>
             <p class="last-update" id="lastModified"></p>
+            <p id="p1"></p>
+            <script>
+                var date = new Date();
+                document.getElementById("p1").innerHTML = date;
+            </script>
         </footer>
-        <h2>Last Updated</h2>
-        <p id="p1"></p>
-        <script>
-            var date = new Date();
-            document.getElementById("p1").innerHTML = date;
-        </script>
     </body>
     </html>
