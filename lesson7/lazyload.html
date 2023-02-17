@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Gugi&display=swap" rel="stylesheet">    
+        <link rel="shortcut icon" href="/lesson7/images/favicon.ico">
+		<meta name="progressive loading of images" content="lazy loading">
+        <title>W07 Lazy Loading</title>
+        <link rel="stylesheet" href="/lesson7/styles/lazy.css">
+    </head>
+    <body>
+		<h1>Progressive Loading of Images</h1>
+        <picture>
+            <img src='/lesson7/images/beach.jpg' data-src="images/beach_300x400.jpg" alt="Flipton Beach"/>
+            <P>Flipton Beach</P>
+        </picture>
+        <picture>
+            <img src='/lesson7/images/formerstation.jpg' data-src="/lesson7/images/formerstation_300x400.jpg" alt="Converted Train Station"/>
+            <P>Flipton Beach</P>
+        </picture>
+        <picture>
+            <img src='/lesson7/images/outdoor.jpg' data-src="/lesson7/images/outdoor_300x400.jpg" alt="The Great Outdoors"/>
+            <P>Flipton Beach</P>
+        </picture>
+        <picture><img src='/lesson7/images/station2jpg.jpg' data-src="/lesson7/images/station2jpg_300x400.jpg" alt="Old Train Station"/>
+            <P>Flipton Beach</P>
+        </picture>
+        <picture>
+            <img src='/lesson7/images/thankyou.jpg' data-src="/lesson7/images/thankyou_300x400.jpg" alt="Thank You for Coming"/>
+            <P>Flipton Beach</P>
+        </picture>
+        <picture>
+            <img src='/lesson7/images/view.jpg' data-src="/lesson7/images/view_300x400.jpg" alt="The Forest of Flipton"/>
+            <P>Flipton Beach</P>
+        </picture>
+        <script src="/scripts/lazyscripts.js"></script>
+    </body>
+</html>
