@@ -1,0 +1,39 @@
+body {
+    background-color: #04395E;
+    color: #D5896F;
+    font-family: Gugi;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 80px;
+    grid-auto-rows: 400px;
+    justify-items: center;
+    align-items: center;
+    grid-gap: 20px;
+}
+
+p { text-decoration: underline; 
+    text-decoration-color: #70A288;
+    text-align: center;
+}
+
+picture img {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    object-position: center;
+    box-shadow: 2px 2px 4px #70A288;
+}
+picture img.in {
+    animation: img-come-in 5s;
+}
+
+@keyframes img-come-in {
+    from {
+        transform: scale(0.9);
+        opacity: 0;
+    }
+    to {
+        transform: scale(1);
+        opacity: 1;
+    }
+}
