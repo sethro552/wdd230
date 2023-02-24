@@ -17,7 +17,7 @@
    
    header{
     background-color: var(--secondary-color);
-    color: var(--accent1-color);
+    color: var(--typography1-color);
     text-align: center;
     padding: 3px 0px;
     margin-top: 50px;
@@ -70,7 +70,7 @@
    footer{
     margin-bottom: 50px;
     background-color: var(--secondary-color);
-    color: var(--accent1-color);
+    color: var(--typography1-color);
     font-family: var(--heading-font);
     text-align: center;
    }
