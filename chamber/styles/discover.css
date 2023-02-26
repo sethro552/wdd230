@@ -18,7 +18,7 @@ p { text-decoration: underline;
 
 picture img {
     width: 300px;
-    height: 300px;
+    height: 200px;
     object-fit: cover;
     object-position: center;
     box-shadow: 2px 2px 4px #70A288;
