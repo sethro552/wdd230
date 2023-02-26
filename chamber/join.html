@@ -50,49 +50,56 @@
         </ul>
     </nav>
 </header>
-    <main>
-        <div id="hero">
-            <img class="banner" src="/chamber/images/hero.jpg">
-            <button class="call-to-action">Join Flipton</button>
-        </div>
-        <div id="event">
-            <img class="banner" src="/chamber/images/event.jpg">
-        <p>
-            <h2>join us at the community center on</h2><br>
-            <h2>March 25th for the community bazzar.</h2><br>
-        </p>
-        </div>
-        <div id="weather"><h2>Todays Weather</h2>
-            <h2 id="temperature">°F</h2>
-            <p id="wind-speed">Wind Speed</p>
-        </div>
-        <div id="news">
-            <span id="news-date"><b>News</b></span>
-            <p>INFORMATION
- 
-            </p>
-        </div>
-        <div id="join">
-            <button class="call-to-action">Join Flipton</button>
-            <p>
-               Join the Flipton Chamber of Commerce<br>
-               and see how to help the area.<br>
-               See how the chamber can help you.
-            </p>
-        </div>
-        <div id="spotlight 1"><b>INFORMATION</b>
+    <main class="main-join">
+        <h1>How to join the Flipton Chamber of Commerce.</h1>
+        <form class = "form-join" method="get" action="thankyou.html">
+            <label class="form_label" for="firstName">First Name *</label>
+            <input type="text" id="firstName" name="firstName" required>
+
+            <label class="form_label" for="lastName">Last Name *</label>
+            <input type="text" id="lastName" name="lastName" required>
+
+            <label class="form_label" for="businessPositionTitle">Business Position Title</label>
+            <input type="text" id="businessPositionTitle" name="businessPositionTitle" pattern="[A-Za-z\s\-]{7,}">
+
+            <label class="form_label" for="email">Email *</label>
+            <input type="email" id="email" name="email" placeholder="example@example.com" required>
+
+            <label class="form_label" for="cellPhone">Cell Phone *</label>
+            <input type="tel" id="cellPhone" name="cellPhone" required>
+
+            <label class="form_label" for="businessNameTitle">Business Name/Title *</label>
+            <input type="text" id="businessNameTitle" name="businessNameTitle" required>
+
+            <label class="membership-level" for="membershipLevel">Membership Level *</label>
+            <select id="membershipLevel" name="membershipLevel">
+                <option value="NP Membership">NP Membership</option>
+                <option value="Bronze Membership">Bronze Membership</option>
+                <option value="Silver Membership">Silver Membership</option>
+                <option value="Gold Membership">Gold Membership</option>
+            </select>
+            <br>
+            <label class="form_label" for="businessDescription">Business Description</label>
+            <textarea id="businessDescription" name="businessDescription"></textarea>
+
+            <input type="hidden" id="date" name="date" value="CurrentTime"> 
+            <input type="hidden" id="time" name="time" value="CurrentDate">
             
-        </div>
-        <div id="spotlight 2"><b>INFORMATION</b>
-            
-        </div>
-        <div id="spotlight 3"><b>INFORMATION</b>
-            
+            <input type="submit" class="button" value="Submit">
+        </form>
+
+        <div class="membership-benefits">
+            <h2>Membership Benefits</h2>
+            <ul>
+                <li>NP Membership: No fee</li>
+                <li>Bronze Membership: Trainings</li>
+                <li>Silver Membership: Trainings, Advertising on the home page spotlights</li>
+                <li>Gold Membership: Trainings, Advertising on the home page spotlights, Event discounts</li>
+            </ul>
         </div>
     </main>
     <footer>
         <section>
-            <h6>Info</h6>
             <div>
                 <img src="/chamber/images/index.png" alt="2nd logo">
             </div>
@@ -109,7 +116,6 @@
         </section>
         <hr>
         <section>
-            <h6>Info</h6>
             <p>&copy;<span id="currentyear"></span> 2022 Flipton Chamber
                 <a>|</a><br> Seth Markle
                 <a>|</a><br>WDD 230 Project
