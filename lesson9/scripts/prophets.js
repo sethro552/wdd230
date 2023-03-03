@@ -36,21 +36,3 @@ function displayCards(prophet) {
 
     document.querySelector('div.cards').appendChild(card);
 }
-
-function displayTable(prophet) {
-    let tableRow = document.createElement('tr');
-
-    let tableName = document.createElement('td');
-    tableName.textContent = prophet.name + ' ' + prophet.lastname;
-    tableRow.appendChild(tableName);
-
-    let tableBirthdate = document.createElement('td');
-    tableBirthdate.textContent = prophet.birthdate;
-    tableRow.appendChild(tableBirthdate);
-
-    let tableBirthplace = document.createElement('td');
-    tableBirthplace.textContent = prophet.birthplace;
-    tableRow.appendChild(tableBirthplace);
-
-    document.querySelector('table').appendChild(tableRow);
-}
