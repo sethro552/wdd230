@@ -1,0 +1,22 @@
+*{
+    text-align: center;
+    font-family: 'Gugi', sans-serif;
+    max-width: 800px;
+    margin: 2.5rem auto;
+}
+header, footer{
+    background-color: #031D44;
+    padding: 1rem;
+    color: #D5896F;
+    
+}
+main{
+    border: 1px solid #70A288;
+    box-shadow: 0 0 10px #DAB785;
+    margin: 4rem auto;
+    max-width: 400px;
+    padding: 1.5rem; 
+    line-height: 2rem;
+    font-size: 1.2rem;
+    
+}
