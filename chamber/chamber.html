@@ -42,10 +42,10 @@
     <nav>
         <ul class="navigation">
             <li><a id="menu"></a></li>
-            <li><a href="../chamber/chamber.html">Home</a></li>
-            <li><a href="../chamber/discover.html">Discover</a></li>
-            <li><a href="../chamber/directory.html">Directory</a></li>
-            <li><a href="../chamber/join.html">Join</a></li>
+            <li><a href="/chamber/chamber.html">Home</a></li>
+            <li><a href="/chamber/discover.html">Discover</a></li>
+            <li><a href="/chamber/directory.html">Directory</a></li>
+            <li><a href="/chamber/join.html">Join</a></li>
         </ul>
     </nav>
 </header>
@@ -111,13 +111,13 @@
             <h6>Info</h6>
             <p>&copy;<span id="currentyear"></span> 2022 Flipton Chamber
                 <a>|</a><br> Seth Markle
-                <a>|</a><br>WDD 230 Project
-                <a>|</a><br>Last Modification:         
+                <a>|</a><br>WDD 230 Project      
                 <p id="p1"></p>
-                <script>
-                    var date = new Date();
-                    document.getElementById("p1").innerHTML = date;
-                </script>
         </section>
     </footer>
+    <script>
+        var date = new Date();
+        document.getElementById("p1").innerHTML = date;
+    </script>
+    <script src="/chamber/scripts/weather.js"></script>
     </html>
