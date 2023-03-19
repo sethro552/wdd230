@@ -1,5 +1,5 @@
 img {
-    width: 50px;
+    width: grid;
 }
 
 header {
@@ -114,6 +114,7 @@ em {
     width: 100%;
     border: #DAB785 solid 2px;
     text-align: center;
+    color: #D5896F;
 }
 
 #join {
