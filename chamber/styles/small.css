@@ -85,7 +85,7 @@ em {
 }
 
 .navigation a:hover {
-    color: black;
+    color: white;
     background-color: #DAB785;
 }
 
@@ -184,4 +184,28 @@ ul {
 
 h6 {
     display: none;
+}
+#spotlight1 {
+    grid-column: 3;
+    grid-row: 1;
+    color: #D5896F;
+    padding: 150px;
+}
+#spotlight2 {
+    grid-column: 3;
+    grid-row: 2;
+    color: #D5896F;
+    padding: 150px;
+}
+#spotlight3 {
+    grid-column: 3;
+    grid-row: 3;
+    color: #D5896F;
+    padding: 150px;
+}
+#event {
+    padding: 0px
+}
+#hero {
+    padding: 0px
 }

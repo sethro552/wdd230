@@ -102,5 +102,28 @@
     hr {
         width: 100%;
     }
-
+    #spotlight1 {
+        grid-column: 3;
+        grid-row: 1;
+        color: #D5896F;
+        padding: 0px; 
+    }
+    #spotlight2 {
+        grid-column: 3;
+        grid-row: 2;
+        color: #D5896F;
+        padding: 0px; 
+    }
+    #spotlight3 {
+        grid-column: 3;
+        grid-row: 3;
+        color: #D5896F;
+        padding: 0px; 
+    }
+    #event {
+        padding: 0px
+    }
+    #hero {
+        padding: 0px
+    }
 }
