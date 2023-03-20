@@ -36,7 +36,7 @@
         border: #DAB785 solid 1px;
         text-align: center;
         color: #D5896F;
-        display: grid;
+        display: flex;
    }
     footer {
         display: grid;
@@ -80,28 +80,19 @@
     #spotlight1 {
         grid-column: 3;
         grid-row: 1;
-        color: #D5896F;
    }
     #spotlight2 {
         grid-column: 3;
         grid-row: 2;
-        color: #D5896F;
    }
     #spotlight3 {
         grid-column: 3;
         grid-row: 3;
-        color: #D5896F;
    }
     #event {
         padding: 0px 
    }
     #hero {
         padding: 0px 
-   }
-    .center {
-        display: block;
-        margin-left: grid;
-        margin-right: grid;
-        width: 50%;
    }
 }

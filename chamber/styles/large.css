@@ -98,29 +98,32 @@
         grid-column: 3;
         grid-row: 1;
         color: #D5896F;
+        display: flex;
+        padding-left: 350px;
     }
     #spotlight2 {
         grid-column: 3;
         grid-row: 2;
         color: #D5896F;
-        
+        display: flex;  
+        padding-left: 350px;
     }
     #spotlight3 {
         grid-column: 3;
         grid-row: 3;
         color: #D5896F;
-
+        display: flex;
+        padding-left: 350px;
     }
     #event {
         padding: 0px
     }
     #hero {
-        padding: 0px
+        display: grid;
     }
     .center {
         display: block;
-      margin-left: grid;
-      margin-right: grid;
-      width: 50%;
+        width: 50%;
+        padding-block: 30px;
     }
 }
