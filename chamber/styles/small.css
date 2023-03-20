@@ -209,3 +209,9 @@ h6 {
 #hero {
     padding: 0px
 }
+.center {
+    display: block;
+  margin-left: grid;
+  margin-right: grid;
+  width: 50%;
+}
