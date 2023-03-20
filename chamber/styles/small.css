@@ -123,18 +123,6 @@ em {
     display: none;
 }
 
-#spotlights div {
-    margin: auto;
-    padding: 5% 0%;
-    width: 95%;
-    border: #DAB785 solid 2px;
-    text-align: center;
-}
-
-#spotlights div:nth-of-type(3) {
-    display: none;
-}
-
 footer {
     padding: 5%;
     background-color: #04395E;
