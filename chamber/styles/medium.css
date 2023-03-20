@@ -23,12 +23,6 @@
         grid-row: 2;
     }
 
-    #spotlights {
-        display: flex;
-        grid-column: 1/4;
-        grid-row: 3;
-    }
-
     #join {
         display: block;
         grid-column: 1/4;
@@ -55,6 +49,7 @@
         width: 100%;
         border: #DAB785 solid 1px;
         text-align: center;
+        color: #D5896F;
     }
 
     footer {
