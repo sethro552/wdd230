@@ -17,80 +17,83 @@
     <title>Flipton Business Directory Page</title>
 </head>
 <header>
-  <div class="main-logo">
-              <img src="../chamber/images/index.png" alt="logo">
-          </a>
+    <div class="main-logo">
+      <img src="../chamber/images/index.png" alt="logo">
       <section>
-          <h1>Flipton Chamber of Commerce</h1>
+        <h1>Flipton Chamber of Commerce</h1>
       </section>
-  </div>
-  <div class="social">
-      <a href="https://facebook.com" target="_blank">
-          <img src="../chamber/images/fb.png" alt="fb icon">
-      </a>
-      <a href="https://www.linkedin.com/" target="_blank">
-          <img src="../chamber/images/linkdin.jpg" alt="in icon">
-      </a>
-  </div>
-  <div id="datebox">
+    </div>
+    <div class="social">
+      <a href="https://facebook.com" target="_blank"><img src="../chamber/images/fb.png" alt="fb icon"></a> <a href="https://www.linkedin.com/" target="_blank"><img src="../chamber/images/linkdin.jpg" alt="in icon"></a>
+    </div>
+    <div id="datebox">
       <p id="p1"></p>
       <script>
-          var date = new Date();
-          document.getElementById("p1").innerHTML = date;
+            var date = new Date();
+            document.getElementById("p1").innerHTML = date;
       </script>
-  </div>
-  <nav>
+    </div>
+    <nav>
       <ul class="navigation">
-          <li><a id="menu"></a></li>
-          <li><a href="../chamber/chamber.html">Home</a></li>
-          <li><a href="../chamber/discover.html">Discover</a></li>
-          <li><a href="../chamber/directory.html">Directory</a></li>
-          <li><a href="../chamber/join.html">Join</a></li>
+        <li>
+          <a id="menu"></a>
+        </li>
+        <li>
+          <a href="../chamber/chamber.html">Home</a>
+        </li>
+        <li>
+          <a href="../chamber/discover.html">Discover</a>
+        </li>
+        <li>
+          <a href="../chamber/directory.html">Directory</a>
+        </li>
+        <li>
+          <a href="../chamber/join.html">Join</a>
+        </li>
       </ul>
-  </nav>
-</header>
-<body>
-    <main id="directory">
-        <div class="menu">
-            <button id="grid">⏹️Grid</button>
-            <button id="list">📄List</button>
-        </div>
-        <hr>
-        <article class="grid">
-        </article>
-    </main>
-</body>
-<footer>
+    </nav>
+  </header>
+  <main id="directory">
+    <div class="menu">
+      <button id="grid">⏹️Grid</button> <button id="list">📄List</button>
+    </div>
+    <hr>
+    <article class="grid"></article>
+  </main>
+  <footer>
     <section>
-        <h6>Info</h6>
-        <div>
-            <img src="../chamber/images/index.png" alt="2nd logo">
-        </div>
-        <ul>
-            <li><h2>Flipton Chamber of Commerce</h2></li>
-            <li><p>552 Flipton Way</p></li>
-            <li><p>Flipton Ohio, 44103</p></li>
-        </ul>
+      <h6>Info</h6>
+      <div><img src="../chamber/images/index.png" alt="2nd logo"></div>
+      <ul>
+        <li>
+          <h2>Flipton Chamber of Commerce</h2>
+        </li>
+        <li>
+          <p>552 Flipton Way</p>
+        </li>
+        <li>
+          <p>Flipton Ohio, 44103</p>
+        </li>
+      </ul>
     </section>
     <section>
-        <p>fliptonchamber.org
-        <p>216-867-5309
-        <p><a href="https://www.google.com/maps/place/Lakefront+Nature+Preserve/@41.543484,-81.6351623,15.67z/data=!4m13!1m7!3m6!1s0x8830ef2ee3686b2d:0xed04cb55f7621842!2sCleveland,+OH!3b1!8m2!3d41.49932!4d-81.6943605!3m4!1s0x8830f98613987e3d:0x82597554cd6b5de2!8m2!3d41.5457288!4d-81.6319206">Find us here!</a></p>
+      <p>fliptonchamber.org</p>
+      <p>216-867-5309</p>
+      <p><a href="https://www.google.com/maps/place/Lakefront+Nature+Preserve/@41.543484,-81.6351623,15.67z/data=!4m13!1m7!3m6!1s0x8830ef2ee3686b2d:0xed04cb55f7621842!2sCleveland,+OH!3b1!8m2!3d41.49932!4d-81.6943605!3m4!1s0x8830f98613987e3d:0x82597554cd6b5de2!8m2!3d41.5457288!4d-81.6319206">Find us here!</a></p>
     </section>
     <hr>
     <section>
-        <h6>Info</h6>
-        <p>&copy;<span id="currentyear"></span> 2022 Flipton Chamber
-            <a>|</a><br> Seth Markle
-            <a>|</a><br>WDD 230 Project
-            <a>|</a><br>Last Modification:         
-            <p id="p1"></p>
-            <script>
-                var date = new Date();
-                document.getElementById("p1").innerHTML = date;
-            </script>
+      <h6>Info</h6>
+      <p>©<span id="currentyear"></span> 2022 Flipton Chamber <a>|</a><br>
+      Seth Markle <a>|</a><br>
+      WDD 230 Project <a>|</a><br>
+      Last Modification:</p>
+      <p id="p1"></p>
+      <script>
+                  var date = new Date();
+                  document.getElementById("p1").innerHTML = date;
+      </script>
     </section>
-</footer>
-<script src="../chamber/scripts/directory.js"></script>
-<script src="../chamber/scripts/directory2.js"></script>
-</html>
+  </footer>
+  <script src="../chamber/scripts/directory.js"></script> 
+  <script src="../chamber/scripts/directory2.js"></script>

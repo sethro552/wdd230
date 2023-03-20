@@ -19,99 +19,91 @@
 </head>
 <header>
     <div class="main-logo">
-                <img src="../chamber/images/index.png" alt="logo">
-            </a>
-        <section>
-            <h1>Flipton Chamber of Commerce</h1>
-        </section>
+      <img src="../chamber/images/index.png" alt="logo">
+      <section>
+        <h1>Flipton Chamber of Commerce</h1>
+      </section>
     </div>
     <div class="social">
-        <a href="https://facebook.com" target="_blank">
-            <img src="../chamber/images/fb.png" alt="fb icon">
-        </a>
-        <a href="https://www.linkedin.com/" target="_blank">
-            <img src="../chamber/images/linkdin.jpg" alt="in icon">
-        </a>
+      <a href="https://facebook.com" target="_blank"><img src="../chamber/images/fb.png" alt="fb icon"></a> <a href="https://www.linkedin.com/" target="_blank"><img src="../chamber/images/linkdin.jpg" alt="in icon"></a>
     </div>
     <div id="datebox">
-        <p id="p1"></p>
-        <script>
-            var date = new Date();
-            document.getElementById("p1").innerHTML = date;
-        </script>
+      <p id="p1"></p>
+      <script>
+              var date = new Date();
+              document.getElementById("p1").innerHTML = date;
+      </script>
     </div>
     <nav>
-        <ul class="navigation">
-            <li><a id="menu"></a></li>
-            <li><a href="../chamber/chamber.html">Home</a></li>
-            <li><a href="../chamber/discover.html">Discover</a></li>
-            <li><a href="../chamber/directory.html">Directory</a></li>
-            <li><a href="../chamber/join.html">Join</a></li>
-        </ul>
+      <ul class="navigation">
+        <li>
+          <a id="menu"></a>
+        </li>
+        <li>
+          <a href="../chamber/chamber.html">Home</a>
+        </li>
+        <li>
+          <a href="../chamber/discover.html">Discover</a>
+        </li>
+        <li>
+          <a href="../chamber/directory.html">Directory</a>
+        </li>
+        <li>
+          <a href="../chamber/join.html">Join</a>
+        </li>
+      </ul>
     </nav>
-</header>
-    <main class="main-join">
-        <h1>How to join the Flipton Chamber of Commerce.</h1>
-        <form class = "form-join" method="get" action="thankyou.html">
-            <label class="form_label" for="firstName">First Name *</label>
-            <input type="text" id="firstName" name="firstName" required>
-
-            <label class="form_label" for="lastName">Last Name *</label>
-            <input type="text" id="lastName" name="lastName" required>
-
-            <label class="form_label" for="businessPositionTitle">Business Position Title</label>
-            <input type="text" id="businessPositionTitle" name="businessPositionTitle" pattern="[A-Za-z\s\-]{7,}">
-
-            <label class="form_label" for="email">Email *</label>
-            <input type="email" id="email" name="email" placeholder="example@example.com" required>
-
-            <label class="form_label" for="cellPhone">Cell Phone *</label>
-            <input type="tel" id="cellPhone" name="cellPhone" required>
-
-            <label class="form_label" for="businessNameTitle">Business Name/Title *</label>
-            <input type="text" id="businessNameTitle" name="businessNameTitle" required>
-
-            <label class="membership-level" for="membershipLevel">Membership Level *</label>
-            <select id="membershipLevel" name="membershipLevel">
-                <option value="NP Membership">NP Membership</option>
-                <option value="Bronze Membership">Bronze Membership</option>
-                <option value="Silver Membership">Silver Membership</option>
-                <option value="Gold Membership">Gold Membership</option>
-            </select>
-            <br>
-            <label class="form_label" for="businessDescription">Business Description</label>
-
-            <input type="hidden" id="date" name="date" value="CurrentTime"> 
-            <input type="hidden" id="time" name="time" value="CurrentDate">           
-        </form>
-    </main>
-    <footer>
-        <section>
-            <div>
-                <img src="../chamber/images/index.png" alt="2nd logo">
-            </div>
-            <ul>
-                <li><h2>Flipton Chamber of Commerce</h2></li>
-                <li><p>552 Flipton Way</p></li>
-                <li><p>Flipton Ohio, 44103</p></li>
-            </ul>
-        </section>
-        <section>
-            <p>fliptonchamber.org
-            <p>216-867-5309
-            <p><a href="https://www.google.com/maps/place/Lakefront+Nature+Preserve/@41.543484,-81.6351623,15.67z/data=!4m13!1m7!3m6!1s0x8830ef2ee3686b2d:0xed04cb55f7621842!2sCleveland,+OH!3b1!8m2!3d41.49932!4d-81.6943605!3m4!1s0x8830f98613987e3d:0x82597554cd6b5de2!8m2!3d41.5457288!4d-81.6319206">Find us here!</a></p>
-        </section>
-        <hr>
-        <section>
-            <p>&copy;<span id="currentyear"></span> 2022 Flipton Chamber
-                <a>|</a><br> Seth Markle
-                <a>|</a><br>WDD 230 Project
-                <a>|</a><br>Last Modification:         
-                <p id="p1"></p>
-                <script>
-                    var date = new Date();
-                    document.getElementById("p1").innerHTML = date;
-                </script>
-        </section>
-    </footer>
-    </html>
+  </header>
+  <main class="main-join">
+    <h1>How to join the Flipton Chamber of Commerce.</h1>
+    <form class="form-join" method="get" action="thankyou.html">
+      <label class="form_label" for="firstName">First Name *</label> <input type="text" id="firstName" name="firstName" required=""> <label class="form_label" for="lastName">Last Name *</label> <input type="text" id="lastName" name="lastName" required=""> <label class="form_label" for="businessPositionTitle">Business Position Title</label> <input type="text" id="businessPositionTitle" name="businessPositionTitle" pattern="[A-Za-z\s\-]{7,}"> <label class="form_label" for="email">Email *</label> <input type="email" id="email" name="email" placeholder="example@example.com" required=""> <label class="form_label" for="cellPhone">Cell Phone *</label> <input type="tel" id="cellPhone" name="cellPhone" required=""> <label class="form_label" for="businessNameTitle">Business Name/Title *</label> <input type="text" id="businessNameTitle" name="businessNameTitle" required=""> <label class="membership-level" for="membershipLevel">Membership Level *</label> <select id="membershipLevel" name="membershipLevel">
+        <option value="NP Membership">
+          NP Membership
+        </option>
+        <option value="Bronze Membership">
+          Bronze Membership
+        </option>
+        <option value="Silver Membership">
+          Silver Membership
+        </option>
+        <option value="Gold Membership">
+          Gold Membership
+        </option>
+      </select><br>
+      <label class="form_label" for="businessDescription">Business Description</label> <input type="hidden" id="date" name="date" value="CurrentTime"> <input type="hidden" id="time" name="time" value="CurrentDate">
+    </form>
+  </main>
+  <footer>
+    <section>
+      <div><img src="../chamber/images/index.png" alt="2nd logo"></div>
+      <ul>
+        <li>
+          <h2>Flipton Chamber of Commerce</h2>
+        </li>
+        <li>
+          <p>552 Flipton Way</p>
+        </li>
+        <li>
+          <p>Flipton Ohio, 44103</p>
+        </li>
+      </ul>
+    </section>
+    <section>
+      <p>fliptonchamber.org</p>
+      <p>216-867-5309</p>
+      <p><a href="https://www.google.com/maps/place/Lakefront+Nature+Preserve/@41.543484,-81.6351623,15.67z/data=!4m13!1m7!3m6!1s0x8830ef2ee3686b2d:0xed04cb55f7621842!2sCleveland,+OH!3b1!8m2!3d41.49932!4d-81.6943605!3m4!1s0x8830f98613987e3d:0x82597554cd6b5de2!8m2!3d41.5457288!4d-81.6319206">Find us here!</a></p>
+    </section>
+    <hr>
+    <section>
+      <p>©<span id="currentyear"></span> 2022 Flipton Chamber <a>|</a><br>
+      Seth Markle <a>|</a><br>
+      WDD 230 Project <a>|</a><br>
+      Last Modification:</p>
+      <p id="p1"></p>
+      <script>
+                      var date = new Date();
+                      document.getElementById("p1").innerHTML = date;
+      </script>
+    </section>
+  </footer>
