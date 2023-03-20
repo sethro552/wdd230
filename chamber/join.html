@@ -16,6 +16,43 @@
     <link rel="stylesheet" href="../chamber/styles/large.css">
     <link rel="stylesheet" href="../chamber/styles/join.css">
     <title>Flipton Chamber Join Page</title>
+
+<script>
+
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+</script>
 </head>
 <header>
     <div class="main-logo">
@@ -76,7 +113,8 @@
   </main>
   <footer>
     <section>
-      <div><img src="../chamber/images/index.png" alt="2nd logo"></div>
+      <h6>Info</h6>
+      <div><img src="images/index.png" alt="2nd logo"></div>
       <ul>
         <li>
           <h2>Flipton Chamber of Commerce</h2>
@@ -96,14 +134,14 @@
     </section>
     <hr>
     <section>
+      <h6>Info</h6>
       <p>©<span id="currentyear"></span> 2022 Flipton Chamber <a>|</a><br>
       Seth Markle <a>|</a><br>
-      WDD 230 Project <a>|</a><br>
-      Last Modification:</p>
+      WDD 230 Project</p>
       <p id="p1"></p>
-      <script>
-                      var date = new Date();
-                      document.getElementById("p1").innerHTML = date;
-      </script>
     </section>
   </footer>
+  <script>
+          var date = new Date();
+          document.getElementById("p1").innerHTML = date;
+  </script>
