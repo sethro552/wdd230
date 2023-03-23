@@ -32,7 +32,6 @@
    }
     #hero, #event, #weather, #join, #news, #spotlights {
         margin: 1% auto;
-        width: 100%;
         border: #DAB785 solid 1px;
         text-align: center;
         color: #D5896F;
