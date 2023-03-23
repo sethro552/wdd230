@@ -76,7 +76,7 @@ em {
 }
 #hero, #event, #weather, #join, #news, #spotlight1 #spotlight2 #spotlight3 {
     margin: 3% auto;
-    padding: 10%;
+    padding: 22%;
     border: #DAB785 solid 2px;
     display: grid;
     color: #D5896F
@@ -125,7 +125,12 @@ ul {
 h6 {
     display: none;
 }
+#spotlight1 {
+    color :#D5896F
+}
+#spotlight2 {
+    color: #D5896F
+}
 #spotlight3 {
-    grid-column: 3;
-    grid-row: 3;
+    color: #D5896F
 }
