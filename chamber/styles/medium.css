@@ -38,9 +38,6 @@
         color: #D5896F;
         display: flex;
    }
-    footer {
-        display: grid;
-   }
     footer img {
         width: 175px;
    }
