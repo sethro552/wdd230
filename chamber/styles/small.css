@@ -79,6 +79,7 @@ em {
     padding: 10%;
     border: #DAB785 solid 2px;
     display: grid;
+    color: #D5896F
 }
 #join {
     display: none;
