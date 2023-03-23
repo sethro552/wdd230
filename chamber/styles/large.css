@@ -2,6 +2,7 @@
 
     .main-logo h1 {
         font-size: 2em;
+        color: #70A288
     }
 
     html {
@@ -126,7 +127,6 @@
     }
     .center {
         display: block;
-        grid-column: 1;
         width: 100%;
         padding-block: 30px;
     }

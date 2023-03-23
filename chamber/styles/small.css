@@ -1,6 +1,7 @@
 header {
     display: grid;
     background-color: #04395E;
+    color: #70A288
 }
 html, body {
     background-color: #031D44;
@@ -11,12 +12,6 @@ html, body {
 }
 .main-logo img {
     width: 75px;
-    padding: 20px 5px 5px;
-}
-.main-logo h1 {
-    color: #70A288;
-    margin: 30px 5px 0px;
-    font-size: 2em;
 }
 .social {
     margin: auto auto;
@@ -45,7 +40,7 @@ em {
 }
 .navigation {
     list-style: none;
-    padding: 0px;
+
     margin: 0;
 }
 .navigation li:first-child {
@@ -81,8 +76,7 @@ em {
 }
 #hero, #event, #weather, #join, #news, #spotlight1 #spotlight2 #spotlight3 {
     margin: 3% auto;
-    padding: 10% 0%;
-    width: 100%;
+    padding: 10%;
     border: #DAB785 solid 2px;
     text-align: center;
     color: #D5896F;
@@ -104,24 +98,17 @@ footer img {
 footer div {
     text-align: center;
 }
-footer h2 {
-    margin-top: 0;
-    text-align: center;
-    color: #DAB785;
-    font-size: 1em;
-}
 footer li {
     list-style-type: none;
 }
 footer p, footer a, footer li {
     text-align: center;
     color: #DAB785;
-    margin: 0px 5px 0px;
     font-size: 1.25em;
 }
 hr {
     border: #70A288 solid 1px;
-    width: 80%;
+
 }
 footer a:hover {
     color: #DAB785;
@@ -139,18 +126,7 @@ ul {
 h6 {
     display: none;
 }
-#spotlight1 {
-    grid-column: 3;
-    grid-row: 1;
-}
-#spotlight2 {
-    grid-column: 3;
-    grid-row: 2;
-}
 #spotlight3 {
     grid-column: 3;
     grid-row: 3;
-}
-#event {
-    padding: 0px;
 }
