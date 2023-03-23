@@ -73,7 +73,8 @@
         margin-bottom: 2px;
         margin-top: 3px;
         margin-left: 9px;
-        display: block;
+        display: grid;
+        padding-right: 100px;
     }
     #join {
         display: block;
@@ -90,7 +91,7 @@
     #weather {
         grid-column: 1;
         grid-row: 2;
-        padding: 52px;
+        padding: 50px;
         display: grid;
     }
     #spotlight1 {
@@ -125,7 +126,7 @@
     }
     .center {
         display: block;
-        width: 100%;
-        padding-block: 30px;
+        width: 90%;
+        padding-block: 10px;
     }
 }

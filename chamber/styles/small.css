@@ -76,7 +76,7 @@ em {
 }
 #hero, #event, #weather, #join, #news, #spotlight1 #spotlight2 #spotlight3 {
     margin: 3% auto;
-    padding: 23%;
+    padding: 14%;
     border: #DAB785 solid 2px;
     display: grid;
     color: #D5896F
