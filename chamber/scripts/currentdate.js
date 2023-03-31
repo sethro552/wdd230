@@ -1,5 +1,7 @@
-const d = new Date();
-document.getElementById("currentyear").textContent = d.getFullYear();
+document.getElementById("year").innerHTML = new Date().getFullYear();
+document.getElementById("modified").innerHTML = document.lastModified;
 
-let lastUpdate = ('Last Modification: ' + document.lastModified);
-document.getElementById("lastupdate").innerHTML = lastUpdate;
+var views = localStorage.getItem('views') || 0;
+views++;
+document.getElementById("views").innerHTML = "You have visited this page " + views + " time" + (views == 1 ? '' : 's');
+localStorage.setItem('views', views);
