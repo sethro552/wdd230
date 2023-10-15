@@ -10,6 +10,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Gugi&display=swap" rel="stylesheet">    
     <link rel="icon" href="/chamber/images/favicon.ico">
+    <link rel="stylesheet" href="/chamber/normalize.css">
     <link rel="stylesheet" href="/chamber/styles/base.css">
     <link rel="stylesheet" href="/chamber/styles/medium.css">
     <link rel="stylesheet" href="/chamber/styles/larger.css">
@@ -18,7 +19,7 @@
 <header>
     <div class="main-logo">
             <a href="/chamber/index.html">
-                <img src="/chamber/images/index.png" alt="logo">
+                <img src="/chamber/images/hero.jpg" alt="logo">
             </a>
         <section>
             <h1>Hudson Chamber of Commerce</h1>
@@ -49,11 +50,9 @@
 <main>
     <div id="hero">Hero Image</div>
     <div id="action">Call to Action</div>
-    <div id="event">Events</div>
-    <div id="weather">Weather</div>
-    <div id="join">Join Us</div>
-    <div id="news">News</div>
-    <div id="spotlights">
+    <div id="event">Current Events</div>
+    <div id="weather">Weather Card</div>
+    <div id="spotlights">Spotlight Advertisments</div>
     <div>Spotlight 1</div>
     <div>Spotlight 2</div>
     <div>Spotlight 3</div>
@@ -63,7 +62,7 @@
     <section>
         <h6>Info</h6>
         <div>
-            <img src="/chamber/images/index.png" alt="2nd logo">
+            <img src="/chamber/images/hero.jpg" alt="2nd logo">
         </div>
         <ul>
             <li><h2>Hudson Chamber of Commerce</h2></li>
@@ -78,15 +77,16 @@
     </section>
     <hr>
     <section>
-        <h6>Info</h6>
         <p>&copy;<span id="currentyear"></span> 2023 Hudson Chamber
             <a>|</a><br> Seth Markle
             <a>|</a><br>WDD 230 Project    
             <p id="p1"></p>
-            <script>
-                var date = new Date();
-                document.getElementById("p1").innerHTML = date;
-            </script>
+            <p class="last-update" id="lastModified"></p>
+            <p id="p1"></p>
     </section>
+    <script>
+        var date = new Date();
+        document.getElementById("p1").innerHTML = date;
+    </script>
 </footer>
 </html>
