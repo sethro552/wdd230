@@ -4,16 +4,15 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="title" content="chamber of commerce">
     <meta name="author" content="Seth Markle">
     <meta name="description" content="chamber layout for wdd 230">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Gugi&display=swap" rel="stylesheet">    
+    <meta property="og:title" content="chamber of commerce">
+    <meta property="og:description" content="chamver layout for wdd 230">
     <link rel="icon" href="../chamber/images/favicon.ico">
-    <link rel="stylesheet" href="../chamber/normalize.css">
     <link rel="stylesheet" href="../chamber/styles/base.css">
-    <link rel="stylesheet" href="../chamber/styles/medium.css">
     <link rel="stylesheet" href="../chamber/styles/larger.css">
     <title>Hudson Chamber of Commerce</title>
 </head>
@@ -38,13 +37,79 @@
     <div>
         <button id="hamburgerBtn"></button>
     </div>
-</header>
-    <body>
     <nav>
         <ul class="navigation">
             <li><a href="../index.html">Home</a></li>
         </ul>
     </nav>
+</header>
+    <body>
+        <main class="home-grid">
+            <div class="hero">
+                <img src="images/wdd230-org.jpg" alt="wdd230-org">
+                <div class="join-button">
+                    <a href="join.html">Join the Chamber</a>
+                  </div>    
+            </div>
+            <div class="event">
+                <h2>Upcoming Events</h2>
+                <ul>
+                  <li>November 19th @ 2pm</li><br>
+                  <img src="images/event.jpg" alt="event">
+                </ul>
+                <p>Join us for a meet and greet fun walk.</p>
+              </div>
+              <div class="weather">
+                <h2>Todays Weather</h2>
+                <div class="temp-div">
+                  <span id="temp"></span>°F
+                </div>
+                <div id="weather-type"></div>
+                <div id="weather-icon-div"></div>
+                <div>
+                  <div class="windspeed-div">
+                    Wind Speed: <span id="windspeed"></span> mph
+                  </div>
+                  <div class="windchill-div">
+                    Wind Chill: <span id="windchill"></span><span id="windchill-F"></span>
+                  </div>
+                </div>
+              </div>
+              <div class="news-release">
+                <h2>News</h2>
+                <p>We would like to thank all the donations for the spring fling backoff coming up on April 2nd.<br>
+                <br>
+                The yearly car show will take place at the expo center on April 8th at 2pm.</p>
+              </div>
+              <div class="spotlights">
+                <div class="spotlight1">
+                  <a href="https://www.ohiobmv.gov//" target="_blank" class="company-site"><img src="images/ohiobmv.jpg" alt="dmv" class="spotlight-img"></a>
+                  <div class="dmv info">
+                    <p class="dmv message">Contact the DMV</p>
+                    <p class="dmv phone">(844) 644-6268</p>
+                    <p class="dmv address">8039 Euclid Ave, Flipton, OH 44103</p>
+                  </div>
+                </div>
+                <div class="spotlight2">
+                  <a href="https://www.redcross.org/get-help/how-to-prepare-for-emergencies/types-of-emergencies/fire.html" target="blank"><img src="images/firesafety.jpg" alt="forest" class="spotlight-img"></a>
+                  <div class="rc info">
+                    <p class="rc web"><a href="https://www.redcross.org/contact-us.html" target="blank" class="rc contact">Fire Safety/American Red Cross</a></p>
+                  </div>
+                </div>
+                <div class="spotlight3">
+                  <a href="https://www.sba.gov/business-guide/launch-your-business/apply-licenses-permits/" target="blank"><img src="images/permit.jpg" alt="thank you logo" class="spotlight-img"></a>
+                  <div class="company-info">
+                    <a href="https://www.sba.gov/business-guide/launch-your-business/apply-licenses-permits/" target="blank" class="company-site">Apply for a Permit</a>
+                  </div>
+                </div>
+              </div>
+              <div class="join">
+                <div class="join-button">
+                  <a href="join.html">Join Us!</a>
+                </div>
+                <p>Join the Flipton Chamber and discover how the chamber can help you today.</p>
+              </div>
+        </main>
 <main>
     <div id="hero">Hero Image</div>
     <div id="action">Call to Action</div>
