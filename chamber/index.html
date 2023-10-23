@@ -1,151 +1,179 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="author" content="Seth Markle">
-  <meta name="description" content="chamber layout for wdd 230">
-  <meta name="og:title" content="hudson ohio chamber of commerce">
-  <meta name="og:description" content="chamber layout for wdd 230">
-  <meta name="og:image" content="../chamber/images/hero.webp">
-  <meta name="og:url" content="https://sethro552.github.io/wdd230/chamber/index.html">
-  <meta name="og:type" content="website">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
-  <link href="https://fonts.googleapis.com/css2?family=Gugi&amp;display=swap" rel="stylesheet">
-  <link rel="icon" href="../chamber/images/favicon.ico">
-  <link rel="stylesheet" href="../chamber/styles/base.css">
-  <link rel="stylesheet" href="../chamber/styles/larger.css">
-  <link rel="stylesheet" href="../chamber/styles/normalization.css">
-  <title>Hudson Chamber of Commerce</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Chamber of Commerce webpage for [City Name Here]</title>
+    <meta name="description" content="Seth's WDD 230 chamber of commerce project for BYUI">
+    <meta name="author" content="Seth Markle">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/larger.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+    <link href="https://fonts.googleapis.com/css2?family=Gugi&amp;display=swap" rel="stylesheet">
+    <meta property="og:title" content="Chamber of Commerce">
+    <meta property="og:description" content="Seth's WDD 230 chamber of commerce project for BYUI">
+    <meta property="og:image" content="">
+    <meta property="og:url" content="https://sethro552.github.io/wdd230/chamber/index.html">
+    <meta property="og:type" content="website">
 </head>
+
 <body>
-  <div class="viewport">
-    <hr>
-    <header>
-      <a href="../wdd230/chamber/index.html"><img class="logo" src="../chamber/images/hero.webp" alt="logo"></a>
-      <div class="social">
-        <a href="https://facebook.com" target="_blank"><img src="../chamber/images/fb.png" alt="fb icon"></a>
-      </div>
-      <div class="social">
-        <a href="https://www.linkedin.com/" target="_blank"><img src="../chamber/images/linkdin.jpg" alt="in icon"></a>
-      </div>
-      <div>
-        <button id="hamburgerBtn"></button>
-      </div>
-    </header>
-    <nav id="mainnav">
-      <ul>
-        <li class="hamburger" id="menubutton"><img src="../chamber/images/hamburger.webp" alt="new image"></li>
-        <li class="menuItem">
-          <a href="../chamber/index.html">Home</a>
-        </li>
-      </ul>
-    </nav>
-    <main>
-      <div class="banner">
-        <img srcset="../chamber/images/wdd230-org.webp" alt=""> <a href="" class=""></a>
-      </div>
-      <div class="textContent">
-        <h1>Hudson Chamber of Commerce</h1>
-        <p>We're devoted to supporting and promoting the original business community. Our thing is to help businesses network, grow, and thrive.</p><br>
-        <br>
-        Through our events, coffers, and advocacy, we aim to foster a strong and vibrant original small town feel. Whether you're a small business proprietor, a large corperation, or just someone looking to support your community, we want you to join us.<br>
-        <br>
-        Come a member moment and start enjoying the numerous benefits of Chamber class, including access to networking events, abatements on business services, and the occasion to have your voice heard on important issues affecting the business community.
-      </div>
-      <div class="cards">
-        <h2>Events</h2>
-        <div class="card">
-          <h2>Young Professionals Network</h2><picture><img src="../chamber/images/ypn.jpg" alt="young professionals network"></picture>
-          <div class="cardContent">
-            <p>December 7th, 2023</p><br>
-            <p>Join us for our young professionals seminar. This seminar is designed to give outreach to the local youths of the area about potental job opportunities.</p>
-          </div>
-        </div>
-        <div class="card">
-          <h2>Coffee and Connections</h2><picture><img src="../chamber/images/coffee.jpg" alt="coffeconnections"></picture>
-          <div class="cardContent">
-            <p>December 19th, 2023</p><br>
-            <p>Come visit other local business leaders from around the Hudson area. Come to chat, inquire, or to make new friends at this monthly event.</p>
-          </div>
-        </div>
-        <div class="card">
-          <h2>Power Hour</h2><picture><img src="../chamber/images/powerhour.jpg" alt="powerhour"></picture>
-          <div class="cardContent">
-            <p>December 21st, 2023</p><br>
-            <p>Want to beef up your portfolio or resume? Come vist our power hour. This is professional help from top employer scouts who seeking out new employees.</p>
-          </div>
-        </div>
-      </div>
-      <div class="card">
-        <div class="cardContent">
-          <h2>Current Weather</h2><img src="" alt="icon" id="weather-icon" class="weatherIcon inline">
-          <p id="current-temp" class="inline"></p>
-          <p id="caption-desc" class="inline"></p>
-        </div>
-      </div>
-      <div class="card">
-        <div class="cardContent">
-          <h2>TEXT HERE</h2><img src="" alt="icon" id="weather-icon1" class="weatherIcon inline">
-          <p id="current-temp1" class="inline"></p>
-          <p id="caption-desc1" class="inline"></p>
-        </div>
-        <div class="cardContent">
-          <img src="" alt="icon" id="weather-icon2" class="weatherIcon inline">
-          <p id="current-temp2" class="inline"></p>
-          <p id="caption-desc2" class="inline"></p>
-        </div>
-        <div class="cardContent">
-          <img src="" alt="icon" id="weather-icon3" class="weatherIcon inline">
-          <p id="current-temp3" class="inline"></p>
-          <p id="caption-desc3" class="inline"></p>
-        </div>
-      </div>
-    </main>
-  </div>
-  <div class="cards">
-    <h2>Spotlights</h2>
-    <div class="card">
-      <picture><img src="" alt="image" id="p1"></picture>
-      <div class="cardContent">
-        <h2 id="t1">Spotlight 1</h2>
-        <p id="d1">TEXT HERE</p>
-      </div>
+    <div class="viewport">
+        <hr>
+        <header>
+            <a href="/wdd230/chamber/index.html">
+                <img class="logo" src="/chamber/images/hero.webp" alt="logo">
+            </a>
+        </header>
+        <nav id="mainnav">
+            <ul>
+                <li class="hamburger" id="menubutton">
+                    <img src="/chamber/images/hamburger.png" alt="hamburger menu">
+                </li>
+
+                <li class="menuItem"><a href="/wdd230/chamber/index.html">Home</a></li>
+
+
+            </ul>
+        </nav>
+        <main>
+            <div class="banner">
+                <a href="" class=""></a>
+            </div>
+            <div class="textContent">
+                <h1>Chamber of Commerce</h1>
+                <p>We're devoted to supporting and promoting the original business community.
+                   Our thing is to help businesses network, grow, and thrive.
+                <br><br>
+                  Through our events, coffers, and advocacy, we aim to foster a strong and vibrant original small town feel.
+                  Whether you're a small business proprietor, a large corperation, or just someone looking to support your 
+                  community, we want you to join us. 
+                <br><br>
+                  Come a member moment and start enjoying the numerous benefits of Chamber class, including access to 
+                  networking events, abatements on business services, and the occasion to have your voice heard on 
+                  important issues affecting the business community.
+                </p>
+            </div>
+            <div class="cards">
+                <h2>Events</h2>
+                <div class="card">
+                    <picture>
+                        <img src="/chamber/images/ypn.jpg" alt="">
+                    </picture>
+                    <div class="cardContent">
+                        <h2>December 7th, 2023</h2>
+                        <br>
+                        <p>Join us for our young professionals seminar. This seminar is designed to give outreach to the local youths of 
+                           the area about potental job opportunities.</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <picture>
+                        <img src="/chamber/images/coffee.jpg" alt="">
+                    </picture>
+                    <div class="cardContent">
+                        <h2>December 19th, 2023</h2>
+                        <br>
+                        <p>Come visit other local business leaders from around the Hudson area. Come to chat, inquire, or to make new 
+                           friends at this monthly event.</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <picture>
+                        <img src="/chamber/images/powerhour.jpg" alt="">
+                    </picture>
+                    <div class="cardContent">
+                        <h2>December 21st, 2023</h2>
+                        <br>
+                        <p>Want to beef up your portfolio or resume? Come vist our power hour. This is professional help from top employer 
+                           scouts who seeking out new employees.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="cards weather">
+                <div class="card">
+                    <div class="cardContent">
+                        <h2>Current Weather</h2>
+                        <img src="" alt="icon" id="weather-icon" class="weatherIcon inline">
+                        <p id="current-temp" class="inline"></p>
+                        <p id="caption-desc" class="inline"></p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="cardContent">
+                        <h2>Next 3 days</h2>
+                        <img src="" alt="icon" id="weather-icon1" class="weatherIcon inline">
+                        <p id="current-temp1" class="inline"></p>
+                        <p id="caption-desc1" class="inline"></p>
+                    </div>
+                    <div class="cardContent">
+                        <img src="" alt="icon" id="weather-icon2" class="weatherIcon inline">
+                        <p id="current-temp2" class="inline"></p>
+                        <p id="caption-desc2" class="inline"></p>
+                    </div>
+                    <div class="cardContent">
+                        <img src="" alt="icon" id="weather-icon3" class="weatherIcon inline">
+                        <p id="current-temp3" class="inline"></p>
+                        <p id="caption-desc3" class="inline"></p>
+                    </div>
+                </div>
+            </div>
+            <div class="cards">
+                <h2>Spotlights</h2>
+                <div class="card">
+                    <picture>
+                        <img src="" alt="" id="p1">
+                    </picture>
+                    <div class="cardContent">
+                        <h2 id="t1">Spotlight 1</h2>
+                        <p id="d1"></p>
+                    </div>
+                </div>
+                <div class="card">
+                    <picture>
+                        <img src="" alt="" id="p2">
+                    </picture>
+                    <div class="cardContent">
+                        <h2 id="t2">Spotlight 2</h2>
+                        <p id="d2"></p>
+                    </div>
+                </div>
+                <div class="card">
+                    <picture>
+                        <img src="" alt="" id="p3">
+                    </picture>
+                    <div class="cardContent">
+                        <h2 id="t3">Spotlight 3</h2>
+                        <p id="d3"></p>
+                    </div>
+                </div>
+            </div>
+        </main>
+        <footer>
+            <div class="ftop">
+                <div class="ftopLeft">
+                    <h2>Chamber of Commerce</h2>
+                    <p>27 E. Main St.</p>
+                    <p>Hudson, Ohio 44236</p>
+                </div>
+                <div class="ftopRight">
+                    <h2>Contact Information</h2>
+                    <p>hudsonchamber.org</p>
+                    <p>(330)-650-0261</p>
+                </div>
+            </div>
+            <div class="fbottom">
+                <span>© 2023</span>
+                <span>Seth Markle</span>
+                <span>WDD 230</span>
+                <span id="moddate">Date Modified</span>
+            </div>
+        </footer>
     </div>
-    <div class="card">
-      <picture><img src="images/hero.png" alt="hero" id="p2"></picture>
-      <div class="cardContent">
-        <h2 id="t2">Spotlight 2</h2>
-        <p id="d2">TEXT HERE</p>
-      </div>
-    </div>
-    <div class="card">
-      <picture><img src="images/hero.png" alt="hero" id="p3"></picture>
-      <div class="cardContent">
-        <h2 id="t3">Spotlight 3</h2>
-        <p id="d3">TEXT HERE</p>
-      </div>
-    </div>
-  </div><img src="../images/hero.webp" alt="hero">
-  <footer>
-    <div class="ftop">
-      <div class="ftopLeft">
-        <h2>Chamber of Commerce</h2>
-        <p>27 E. Main St.</p>
-        <p>Hudson, Ohio 44236</p>
-      </div>
-      <div class="ftopRight">
-        <h2>Contact Information</h2>
-        <p>hudsonchamber.org</p>
-        <p>(330)-650-0261</p>
-      </div>
-    </div>
-    <div class="fbottom">
-      <span>© Fall 2023</span> <span>Seth Markle</span> <span>WDD 230</span> <span id="moddate">Date Modified</span>
-    </div>
-  </footer>
-  <script src="/chamber/scripts/currentdate.js"></script>
+    <script src="/chamber/scripts/menu.js"></script>
 </body>
+
 </html>
