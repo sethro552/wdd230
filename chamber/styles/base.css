@@ -507,3 +507,7 @@ fieldset{
 .lazy-loaded {
     opacity: 1;
 }
+
+.img {
+    width: 900px;
+}
