@@ -31,6 +31,7 @@ div.viewport {
     border-top: 3px solid #F1520E;
     position: relative;
     padding-top: 20px;
+    color: #DAB785
 }
 header{
     width: 100%;
@@ -123,7 +124,7 @@ nav ul li{
 }
 main .banner{
     width: 100%;
-    background: url("../images/hero.jpg") no-repeat center center;
+    background: url("images/hero.jpg") no-repeat center center;
     background-size: cover;
     display: flex;
     justify-content: center;
