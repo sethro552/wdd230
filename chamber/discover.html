@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Chamber of Commerce webpage for [City Name Here]</title>
+    <meta name="description" content="Seth's WDD 230 chamber of commerce project for BYUI">
+    <meta name="author" content="Seth Markle">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/larger.css">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+    <link href="https://fonts.googleapis.com/css2?family=Gugi&amp;display=swap" rel="stylesheet">
+    <link rel="icon" href="images/favicon.ico">
+    <meta property="og:title" content="Chamber of Commerce">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="https://sethro552.github.io/wdd230/chamber/images/logo.webp">
+    <meta property="og:url" content="https://sethro552.github.io/wdd230/chamber/index.html">
+</head>
+
+<body>
+    <div class="viewport">
+        <hr>
+        <header>
+                <img class="logo" srcset="images/logo.webp" alt="logo">
+        </header>
+          <nav id="mainnav">
+            <ul>
+                <li class="hamburger" id="menubutton">
+                    <img src="images/hamburgerbutton.png" alt="hamburger menu">
+                </li>
+
+                <li class="menuItem"><a href="index.html">Home</a></li>
+                <li class="menuItem"><a href="discover.html">Discover</a></li>
+
+            </ul>
+        </nav>
+        <main>
+            <h1>Welcome to Hudson Ohio</h1>
+            <div class="sidebar">
+                <div class="left">
+                    <div class="statistics">
+                        <h2>Our Statistics</h2>
+                        <p>Population: 22,917</p>
+                        <p>Median Age: 43.9 Years</p>
+                        <p>Median Household Income: $143,143</p>
+                        <p>Median Home Value: $370,900</p>
+                    </div>
+                    <div class="events">
+                        <h2>Upcoming Events</h2>
+                        <a href="#">
+                            <p class="event">Art Exhibit</p>
+                            <p></p>
+                        </a>
+                        <a href="#">
+                            <p class="event">Nature Walk</p>
+                            <p></p>
+                        </a>
+                        <a href="#">
+                            <p class="event">Old Market</p>
+                            <p></p>
+                        </a>
+                        <a href="#">
+                            <p class="event">Train Station Shopping</p>
+                            <p></p>
+                        </a>
+                        <a href="#">
+                            <p class="event">Wilderness Hike</p>
+                            <p></p>
+                        </a>
+                    </div>
+                    <p id="time">---</p>
+                </div>
+                <div class="right">
+                    <div class="gallery">
+                        <div class="galleryImage">
+                            <img src="images/art.jpg" alt="Art Exhibit"  loading="lazy">
+                            <span class="label">Art Exhibit</span>
+                        </div>
+                        <div class="galleryImage">
+                            <img src="images/parkday.jpg" alt="Nature Walk"  loading="lazy">
+                            <span class="label">Nature Walk</span>
+                        </div>
+                        <div class="galleryImage">
+                            <img src="images/oldmarket.jpg" alt="Old Market"  loading="lazy">
+                            <span class="label">Old Market</span>
+                        </div>
+                        <div class="galleryImage">
+                            <img src="images/shoppingstation.jpg" alt="Train Station Shopping"  loading="lazy">
+                            <span class="label">Train Station Shopping</span>
+                        </div>
+                        <div class="galleryImage">
+                            <img src="images/forestwalk.jpg" alt="Wilderness Hike"  loading="lazy">
+                            <span class="label">Wilderness Hike</span>
+                        </div>
+                    </div>
+        </main>
+            <footer>
+              <div class="ftop">
+                  <div class="ftopLeft">
+                      <h2>Chamber of Commerce</h2>
+                      <p>27 E. Main St.</p>
+                      <p>Hudson, Ohio 44236</p>
+                  </div>
+                  <div class="ftopRight">
+                      <h2>Contact Information</h2>
+                      <p>hudsonchamber.org</p>
+                      <p>(330)-650-0261</p>
+                  </div>
+              </div>
+              <div class="fbottom">
+                  <span>© 2023</span>
+                  <span>Seth Markle</span>
+                  <span>WDD 230</span>
+                  <span id="moddate">Date Modified</span>
+              </div>
+          </footer>
+      </div>
+        </main>
+    <script src="scripts/menu.js"></script>
+    <script src="scripts/lazyscripts.js"></script>
+</body>
+
+</html>
