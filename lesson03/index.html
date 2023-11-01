@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="title" content="WDD 230 - Web Frontend Development">
+    <meta name="author" content="Seth Markle">
+    <meta name="description" content="WDD 230 - Web Frontend Development - Chamber-Site-Plan">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Gugi&display=swap" rel="stylesheet">    
+    <link rel="icon" href="chamber/images/favicon.ico">
+    <link rel="stylesheet" href="styles/normalization.css">
+    <link rel="stylesheet" href="styles/larger.css">
+    <link rel="stylesheet" href="styles/medium.css">
+    <link rel="stylesheet" href="styles/base.css">
+    <title>Seth Markle - WDD 230 - Web Frontend Development</title>
+</head>
+<body>    
+        <header>
+            <img src="images/profile.png" alt="">
+            <h1>Seth Markle</h1>
+            </header>
+            <nav id="mainnav">
+              <ul>
+                  <li class="hamburger" id="menubutton">
+                      <img src="chamber/images/hamburgerbutton.png" alt="hamburger menu">
+                  </li>
+  
+                  <li class="menuItem"><a href="index.html">Home</a></li>
+  
+  
+              </ul>
+          </nav>
+            <main>
+              <div class="hero2">
+                <picture>
+                  <img src="https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/columbus-ohio/400x250/columbus-temple-lds-408057-wallpaper.jpg" alt="Columbus Temple - 2022">
+                </picture>
+                <div class="herotemple">
+                  <p>Columbus Temple</p>
+                </div>
+              </div>
+            <h2>WDD 230: Web Frontend Development</h2>
+            <section>
+              <div class="card">
+                <h3>Learning Activites</h3>
+                <br>
+                  <a href="lesson02/design-principles.html">Design Principles Document</a>
+                <br>
+                  <a href="lesson03/chamber-site-plan.html">Website Planning Document</a>
+                <br>
+                  <a href="chamber/index.html">Chamber Home Page Build</a>
+                <br>
+                  <a href="lesson05/bom.html">DOM Manipulation</a>
+                </div>
+            </section>
+            <section>
+              <div class="card">
+                <h3>Information</h3>
+              </div>
+            </section>
+            <ul>
+                
+            </ul>
+        </main>
+        <footer>
+            <p>
+                &copy; Fall Term 2023 | Seth Markle | Ohio | <span>BYUI Online Learning</span>
+            </p>
+            <p class="last-update" id="lastModified"></p>
+            <p id="p1"></p>
+            <script>
+                var date = new Date();
+                document.getElementById("p1").innerHTML = date;
+            </script>
+        </footer>
+    </body>
+    </html>
