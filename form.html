@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="title" content="WDD 230 - Web Frontend Development">
+    <meta name="author" content="Seth Markle">
+    <meta name="description" content="WDD 230 - Web Frontend Development - Chamber-Site-Plan">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Gugi&display=swap" rel="stylesheet">    
+    <link rel="icon" href="chamber/images/favicon.ico">
+    <link rel="stylesheet" href="styles/normalization.css">
+    <link rel="stylesheet" href="styles/larger.css">
+    <link rel="stylesheet" href="styles/medium.css">
+    <link rel="stylesheet" href="styles/base.css">
+    <title>Seth Markle - WDD 230 - Web Frontend Development</title>
+</head>
+<body>    
+        <header>
+            <img src="images/profile.png" alt="">
+            <h1>Seth Markle</h1>
+            </header>
+            <nav id="mainnav">
+              <ul>
+                  <li class="hamburger" id="menubutton">
+                      <img src="chamber/images/hamburgerbutton.png" alt="hamburger menu">
+                  </li>
+  
+                  <li class="menuItem"><a href="index.html">Home</a></li>
+  
+  
+              </ul>
+          </nav>
+            <main>
+
+            </main>
+            <footer>
+                <p>
+                    &copy; Fall Term 2023 | Seth Markle | Ohio | <span>BYUI Online Learning</span>
+                </p>
+                <p class="last-update" id="lastModified"></p>
+                <p id="p1"></p>
+                <script>
+                    var date = new Date();
+                    document.getElementById("p1").innerHTML = date;
+                </script>
+            </footer>
+        </body>
+        </html>
