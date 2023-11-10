@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Chamber of Commerce webpage for Hudson</title>
+    <meta name="description" content="Seth's WDD 230 chamber of commerce project for BYUI">
+    <meta name="author" content="Seth Markle">
+    <meta property="og:title" content="Chamber of Commerce">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="https://sethro552.github.io/wdd230/chamber/images/logo.webp">
+    <meta property="og:url" content="https://sethro552.github.io/wdd230/chamber/index.html">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/larger.css">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+    <link href="https://fonts.googleapis.com/css2?family=Gugi&amp;display=swap" rel="stylesheet">
+    <link rel="icon" href="images/favicon.ico">
+</head>
+
+<body>
+    <div class="viewport">
+        <hr>
+        <header>
+                <img class="logo" srcset="images/logo.webp" alt="logo">
+        </header>
+    </div>
+          <nav id="mainnav">
+            <ul>
+                <li class="hamburger" id="menubutton">
+                    <img src="images/hamburgerbutton.png" alt="hamburger menu">
+                </li>
+
+                <li class="menuItem"><a href="index.html">Home</a></li>
+                <li class="menuItem"><a href="discover.html">Discover</a></li>
+                <li class="menuItem"><a href="join.html">Join</a></li>
+                <li class="menuItem"><a href="directory.html">Directory</a></li>
+            </ul>
+        </nav>
+        <main>
+            <h1>Chamber of Commerce Members</h1>
+            <button class="button" id="toggle">List View</button>
+            <div id="members" class="members">Please Wait...</div>
+        </main>
+        <footer>
+            <div class="ftop">
+                <div class="ftopLeft">
+                    <h2>Chamber of Commerce</h2>
+                    <p>27 E. Main St.</p>
+                    <p>Hudson, Ohio 44236</p>
+                </div>
+                <div class="ftopRight">
+                    <h2>Contact Information</h2>
+                    <p>hudsonchamber.org</p>
+                    <p>(330)-650-0261</p>
+                </div>
+            </div>
+            <div class="fbottom">
+                <span>© 2023</span>
+                <span>Seth Markle</span>
+                <span>WDD 230</span>
+                <span id="moddate">Date Modified</span>
+            </div>
+        </footer>
+  <script src="scripts/menu.js"></script>
+</body>
+
+</html>
