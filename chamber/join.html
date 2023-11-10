@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Chamber of Commerce webpage for Hudson</title>
+    <meta name="description" content="Seth's WDD 230 chamber of commerce project for BYUI">
+    <meta name="author" content="Seth Markle">
+    <meta property="og:title" content="Chamber of Commerce">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="https://sethro552.github.io/wdd230/chamber/images/logo.webp">
+    <meta property="og:url" content="https://sethro552.github.io/wdd230/chamber/index.html">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/larger.css">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+    <link href="https://fonts.googleapis.com/css2?family=Gugi&amp;display=swap" rel="stylesheet">
+    <link rel="icon" href="images/favicon.ico">
+</head>
+
+<body>
+    <div class="viewport">
+        <hr>
+        <header>
+                <img class="logo" srcset="images/logo.webp" alt="logo">
+        </header>
+    </div>
+          <nav id="mainnav">
+            <ul>
+                <li class="hamburger" id="menubutton">
+                    <img src="images/hamburgerbutton.png" alt="hamburger menu">
+                </li>
+
+                <li class="menuItem"><a href="index.html">Home</a></li>
+                <li class="menuItem"><a href="discover.html">Discover</a></li>
+                <li class="menuItem"><a href="join.html">Join</a></li>
+                <li class="menuItem"><a href="directory.html">Directory</a></li>
+            </ul>
+        </nav>
+        <main>
+            <h1>Join the Chamber</h1>
+            <form method="post" action="thankyou.php">
+                <!-- action had to be a php file because the form was not working due to NginX not being able to handle the form data. -->
+                <div class="blocks">
+                    <fieldset>
+                        <legend>Applicant Information</legend>
+                        <label>First Name* <input type="text" name="fname" required></label>
+                        <label>Last Name* <input type="text" name="lname" required></label>
+                        <label>Title <input type="text" name="title" pattern="[A-Za-z0-9\s-]{7,}"></label>
+                        <label>Email* <input type="email" name="email" required placeholder="someone@example.com"></label>
+                        <label>Phone* <input type="tel" name="phone" placeholder="1234567890" required></label>
+                    </fieldset>
+                    <fieldset>
+                        <legend>Business Information</legend>
+                        <label>Business Name <input type="text" name="businessName"></label>
+                        <label for="business">Business Description</label>
+                        <textarea name="business" placeholder="Business Description"></textarea>
+                        <input type="hidden" name="datetime" id="datetime" value="">
+                    </fieldset>
+                    <fieldset>
+                        <legend>Membership Level</legend>
+                        <label>
+                            <input type="radio" name="audience" value="np">
+                            <span>NP Membership ( FREE )</span>
+                            <p class="label">For Non-Profit organizations</p>
+                        </label>
+                        <label>
+                            <input type="radio" name="audience" value="br" checked>
+                            <span>Bronze Membership ($50/yr)</span>
+                            <p class="label">For Small Businesses</p>
+                        </label>
+                        <label>
+                            <input type="radio" name="audience" value="si">
+                            <span>Silver Membership ($100/yr)</span>
+                            <p class="label">For Medium Businesses</p>
+                        </label>
+                        <label>
+                            <input type="radio" name="audience" value="go">
+                            <span>Gold Membership ($200/yr)</span>
+                            <p class="label">For Large Businesses</p>
+                        </label>
+                    </fieldset>
+                    <fieldset class="hiddenForm">
+                        <legend>Membership Pricing</legend>
+                        <p class="title">NP (Non-Profit) Membership</p>
+                        <p>NP Membership includes all the benefits of a Bronze Membership, but is free for Non-Profit organizations.</p>
+                        <p class="title">Bronze Membership</p>
+                        <p>Bronze Membership includes an invitation to all Chamber events, a listing on the Chamber website, and a listing in the Chamber newsletter.</p>
+                        <p class="title">Silver Membership</p>
+                        <p>Silver Membership includes all the benefits of a Bronze Membership, plus a 10% discount on all Chamber events.</p>
+                        <p class="title">Gold Membership</p>
+                        <p>Gold Membership includes all the benefits of a Silver Membership, plus a 20% discount on all Chamber events.</p>
+                    </fieldset>
+                </div>
+                <div class="buttonframe">
+                    <input type="submit" value="Join">
+                </div>
+        </main>
+        <footer>
+            <div class="ftop">
+                <div class="ftopLeft">
+                    <h2>Chamber of Commerce</h2>
+                    <p>27 E. Main St.</p>
+                    <p>Hudson, Ohio 44236</p>
+                </div>
+                <div class="ftopRight">
+                    <h2>Contact Information</h2>
+                    <p>hudsonchamber.org</p>
+                    <p>(330)-650-0261</p>
+                </div>
+            </div>
+            <div class="fbottom">
+                <span>© 2023</span>
+                <span>Seth Markle</span>
+                <span>WDD 230</span>
+                <span id="moddate">Date Modified</span>
+            </div>
+        </footer>
+  <script src="scripts/menu.js"></script>
+</body>
+
+</html>
+        
