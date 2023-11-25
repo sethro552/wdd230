@@ -28,9 +28,6 @@ div.viewport {
     margin: 0 auto;
     font-family: 'Gugi', sans-serif;
     font-weight: 400;
-    border-top: 3px solid #F1520E;
-    position: relative;
-    padding-top: 20px;
     color: #DAB785
 }
 header{
