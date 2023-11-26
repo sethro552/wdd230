@@ -44,7 +44,7 @@ main {
 	object-fit: cover;
 }
 
-.herotemple {
+.hero2label {
 	position: absolute;
 	top: 30px;
 	left: 30px;
@@ -53,10 +53,14 @@ main {
 	padding: 1.5rem;
 	box-shadow: 0 0 3rem #fff;
 	opacity: 0.75;
-	/* Buenas */
-}
+    margin: 0;
+    padding: .25rem;
+    font-weight: 700;
+    font-size: 2rem;
+    font-family:"Great Vibes", serif;
+    }
 
-.herotemple p {
+.hero2label p {
 	margin: 0;
 	padding: .25rem;
 	font-weight: 700;
