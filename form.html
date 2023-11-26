@@ -10,6 +10,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Gugi&display=swap" rel="stylesheet">    
     <link rel="icon" href="chamber/images/favicon.ico">
+    <link rel="stylesheet" href="styles/form.css">
     <link rel="stylesheet" href="styles/normalization.css">
     <link rel="stylesheet" href="styles/larger.css">
     <link rel="stylesheet" href="styles/medium.css">
@@ -33,7 +34,13 @@
               </ul>
           </nav>
             <main>
-
+                    <form method="get" action="record.html"></form>
+                    <fieldset>
+                        <legend>User Information</legend>
+                        <label class="top">Username*<input type="text" name="Username" required></label>
+                        <label class="top">Password*<input type="password" name="password" required pattern="[a-zA-Z0-9]{8,}"
+                                title="Please enter at least eight alpha-numeric characters."></label>
+                    </fieldset>
             </main>
             <footer>
                 <p>
