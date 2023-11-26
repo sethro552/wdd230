@@ -2,8 +2,10 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="title" content="WDD 230 - Web Frontend Development">
+    <meta name="author" content="Seth Markle">
+    <meta name="description" content="Seth's WDD 230 chamber of commerce project for BYUI">
     <link rel="stylesheet" href="styles/prophets.css">
     <script defer src="scripts/prophets.js"></script>
     <title>Working with JSON data and the Fetch API</title>
@@ -14,11 +16,16 @@
       </header>
       <main>
         <div class="cards"></div>
-        <table class="table"></table>
       </main>
 
       <footer>
-        @Seth Markle | BYU-Idaho | WDD 230 Winter 2022
-      </footer>
+        [Seth Markle] | Latter-day Prophets
+        <p class="last-update" id="lastModified"></p>
+        <p id="p1"></p>
+        <script>
+            var date = new Date();
+            document.getElementById("p1").innerHTML = date;
+        </script>
+    </footer>
 </body>
 </html>
