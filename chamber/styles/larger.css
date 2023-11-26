@@ -33,11 +33,6 @@
         display: inline-block;
         width: auto;
     }
-    main .banner{
-        aspect-ratio: 20/9;
-        border-bottom:1px solid #ccc;
-        border-top: 1px solid #ccc;
-    }
     main .cards.weather .card{
         width: 100%;
         max-width: 100%;
@@ -46,7 +41,7 @@
         padding-top:30px;
     }
     footer .ftop{
-        border-top: 3px solid #F1520E;
+        border-top: 3px solid #70A288;
     }
     footer .ftop > div{
         border: none !important;
@@ -56,7 +51,7 @@
         padding: 15px;
         padding-bottom:5px;
         width:100%;
-        border-top: 3px solid #F1520E;
+        border-top: 3px solid #70A288;
     }
 
     .sidebar {
