@@ -3,9 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="title" content="WDD 230 - Web Frontend Development">
+    <meta name="title" content="Form Build">
     <meta name="author" content="Seth Markle">
-    <meta name="description" content="WDD 230 - Web Frontend Development - Chamber-Site-Plan">
+    <meta name="description" content="WDD 230 - Web Frontend Development - Form Build">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Gugi&display=swap" rel="stylesheet">    
@@ -28,8 +28,10 @@
                     <fieldset>
                         <legend>User Information</legend>
                         <label class="top">Username*<input type="text" name="Username" required></label>
-                        <label class="top">Password*<input type="password" name="password" required pattern="[a-zA-Z0-9]{8,}"
-                                title="Please enter at least eight alpha-numeric characters."></label>
+                        <label class="top">Password*<input type="password" name="password" required pattern="[a-zA-Z0-9]{8,}">
+                        <label class="top">Repeat Password*<input type="retype" name="retype" required></label>       
+                        <label class="top">Email*<input type="email" name="email" required></label>
+                        <label class="top">Page Rating*<input type="rating" name="rating" required></label>
                     </fieldset>
             </main>
             <footer>
