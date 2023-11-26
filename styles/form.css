@@ -1,4 +1,4 @@
-:root {
+.root {
     --back: hsla(150, 50%, 30%, 1);
     --back2: hsla(150, 50%, 30%, .5);
     --foredark: hsla(0, 0%, 10%, 1);
