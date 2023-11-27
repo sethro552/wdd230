@@ -39,6 +39,9 @@
                 <li class="menuItem"><a href="directory.html">Directory</a></li>
             </ul>
         </nav>
+        <div id="reminder-banner">
+            <p>Reminder: Chamber of Commerce Meet & Greet this Wednesday at 7:00pm.</p>
+        </div>
     </header>
         <main>
             <div class="banner">
@@ -96,6 +99,12 @@
                     </div>
                 </div>
             </div>
+            <section class="card" id="weather-card">
+                <h2>Weather</h2>
+                <p id="weather">Today: <br><span id="temp"></span>&deg;F — <span id="desc"></span> <br>with <span id="windspeed"></span>mph winds</p>
+                <p>Feels Like <span id="feelsLike"></span>°F</p>
+                <p><span id="forecast"></span></p>
+            </section>
             <div class="cards">
                 <h2>Spotlights</h2>
                 <div class="card">
@@ -149,7 +158,7 @@
           </footer>
           <p id="time">---</p>
     <script src="scripts/currentdate.js"></script>
-    <script src="scripts/darklight.js"></script>
+    <script src="scripts/weather.js"></script>
     <script src="scripts/lazyscripts.js"></script>
 </body>
 
