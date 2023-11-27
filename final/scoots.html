@@ -8,12 +8,12 @@
     <title>Scoots</title>
     <meta name="description" content="Final Website">
     <meta name="author" content="Seth Markle">
-    <link rel="stylesheet" href="little.css">
-    <link rel="stylesheet" href="big.css">
+    <link rel="stylesheet" href="css/little.css">
+    <link rel="stylesheet" href="css/big.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Kalam:wght@300&display=swap" rel="stylesheet">
-    <meta property="og:title" content="Bountiful Foods">
+    <meta property="og:title" content="Scoots">
     <meta property="og:description" content="Seth's final website">
     <meta property="og:type" content="website">
 </head>
@@ -33,47 +33,134 @@
         <nav id="mainnav">
             <ul>
                 <li class="menuItem"><a href="scoots.html">Home</a></li>
-                <li class="menuItem"><a href="../final/fresh.html">Fresh</a></li>
-                <li class="menuItem"><a href="../final/aboutus.html">About Us</a></li>
+                <li class="menuItem"><a href="">Rentals</a></li>
+                <li class="menuItem"><a href="">Reservations</a></li>
+                <li class="menuItem"><a href="">Contact</a></li>
             </ul>
         </nav>
         <main>
-            <main class="main-join">
-                <h1>Sign up to see how fresh you life can become.</h1><br>
-                <h1>Order a select fruit drink for you or anyone you know.</h1>
-                <form class="form-join" method="get" action="thankyou.html">
-                  <label class="form_label" for="firstName">First Name *</label> 
-                  <input type="text" id="firstName" name="firstName" required="">
-                  <label class="form_label" for="email">Email *</label>
-                  <input type="email" id="email" name="email" placeholder="example@example.com" required="">
-                  <label class="form_label" for="cellPhone">Cell Phone *</label>
-                  <input type="tel" id="cellPhone" name="cellPhone" required="">
-                  </select><br>
-                </form>
-              </main>
+            <div class="textContent">
+                <h1>Scoots</h1>
+                <p><h2>At Bountiful Foods we are dedicated to supporting and promoting Bountiful Foods within our community. Our goal is to provide the
+                    the community with healthy fruits and vegitables.
+                    <br><br>
+                    We are all about freshness here at Bountiful Foods.  We are here to help you live a better lifestyle.  Our
+                    delivery trucks are on the road six days a week to serve and meet your needs.
+                    <br><br>
+                    Looking to help us out?  We are always in search of others who share our vison and goals.</h2>  
+                </p>
+            </div>
+                <div class="cardContent">
+                    <h2>Name that fruit and we just may have it!</h2>
+                    <p><h3>If you're looking for some fresh and sweet in your life look no further.</h3></p>
+                    <picture>
+                        <img src="photos/fruitphotos.jpg" alt="">
+                    </picture>
+                <div class="cardContent">
+                    <h2>Name that veggie and we just may have it!</h2>
+                    <p><h3>If you're looking for some fresh and crunchy veggies in your life look no further.</h3></p>
+                    </div>
+                </div>
+                <div class="card">
+                    <picture>
+                        <img src="photos/manyveggies.jpg" alt="">
+                    </picture>
+                    <div class="cardContent">
+                    <div class="banner">
+                        <img src="photos/banner.png" alt="">
+                    </div>
+                </div>
+                <div class="card">
+                    <picture>
+                        <img src="images/hero.png" alt="">
+                    </picture>
+                </div>
+            </div>
+            <div class="cards weather">
+                <div class="card">
+                    <div class="cardContent">
+                        <h2>Current Weather</h2>
+                        <img src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" alt="icon" id="weather-icon" class="weatherIcon inline">
+                        <p id="current-temp" class="inline">Loading...</p>
+                        <p id="caption-desc" class="inline">Loading...</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="cardContent">
+                        <h2>Next 3 days</h2>
+                        <img src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" alt="icon" id="weather-icon1" class="weatherIcon inline">
+                        <p id="current-temp1" class="inline">Loading...</p>
+                        <p id="caption-desc1" class="inline">Loading...</p>
+                    </div>
+                    <div class="cardContent">
+                        <img src="" alt="icon" id="weather-icon2" class="weatherIcon inline">
+                        <p id="current-temp2" class="inline">Loading...</p>
+                        <p id="caption-desc2" class="inline">Loading...</p>
+                    </div>
+                    <div class="cardContent">
+                        <img src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" alt="icon" id="weather-icon3" class="weatherIcon inline">
+                        <p id="current-temp3" class="inline">Loading...</p>
+                        <p id="caption-desc3" class="inline">Loading...</p>
+                    </div>
+                </div>
+            </div>
+            <div class="cards">
+                <a href="final/fresh.html" class="button nohover">Make your own fruit drink mix!</a>
+                <div class="card">
+                    <picture>
+                        <img src="photos/drink1.jpg" alt="">
+                    </picture>
+                    <div class="cardContent">
+                        <h2 id="t1">Razzelberry</h2>
+                        <p id="d1">Enjoy this fushion of raspberries and blackberries in a cool combination.</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <picture>
+                        <img src="photos/drink2.jpg" alt="">
+                    </picture>
+                    <div class="cardContent">
+                        <h2 id="t2">One Primary Fruit</h2>
+                        <p id="d2">Each drink is made of one main fruit with bits of others for a unique blend.</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="cardContent">
+                        <picture>
+                            <img src="photos/drink3.jpg" alt="">
+                        </picture>
+                        <h2 id="t3">Blood Orange Sunrise</h2>
+                        <p id="d3">Nothing like waking up with the power of oranges.</p>
+                    </div>
+                </div>
+            </div>
         </main>
         <footer>
             <div class="ftop">
                 <div class="ftopLeft">
-                    <h2>Carlsbad</h2>
-                    <p>777 Produce Way</p>
-                    <p>777 Produce Way, Carlsbad, CA 77777</p>
+                    <h2>Address</h2>
+                    <p>77689 San Miguel de Cozumel</p>
+                    <p>Quintana Roo, Mexico</p>
                 </div>
                 <div class="ftopRight">
                     <h2>Contact Information</h2>
-                    <p>bountifulfoods@somewhere.com</p>
-                    <p>867-5309</p>
+                    <p>scoots@terminal.com</p>
+                    <p>+529841548899</p>
                 </div>
             </div>
             <div class="fbottom">
-                <span>© 2022</span>
+                <span>© 2023</span>
                 <span>Seth Markle</span>
                 <span>WDD 230</span>
-                <span id="moddate">Date Modified</span>
             </div>
         </footer>
     </div>
-    <script src="java/scripts.js"></script>
+    <p class="last-update" id="lastModified"></p>
+    <p id="p1"></p>
+    <script>
+        var date = new Date();
+        document.getElementById("p1").innerHTML = date;
+    </script>
 </body>
 
 </html>
