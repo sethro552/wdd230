@@ -244,7 +244,6 @@ footer .fbottom span{
 
 .sidebar {
     display: grid; 
-    /*stacked on top of each other*/
     grid-template-columns: 1fr;
     grid-template-areas:
         "left"
@@ -313,7 +312,7 @@ input{
     border-radius: 5px;
     display: block;
     color: black;
-    width: calc(100% - 20px);
+    width: calc(100% - 60px);
 }
 
 input[type=submit]{
@@ -349,7 +348,7 @@ textarea{
     padding: 10px 30px;
     margin: 10px;
     height: 296px;
-    width: calc(100% - 20px);
+    width: calc(100% - 60px);
     display: block;
     font-size: 1em;
     border-radius: 5px;

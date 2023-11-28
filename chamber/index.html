@@ -1,165 +1,140 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>The Chamber of Commerce webpage for Hudson</title>
-    <meta name="description" content="Seth's WDD 230 chamber of commerce project for BYUI">
-    <meta name="author" content="Seth Markle">
-    <meta property="og:title" content="Hudson Chamber of Commerce">
-    <meta property="og:type" content="website">
-    <meta property="og:image" content="https://sethro552.github.io/wdd230/chamber/images/logo.webp">
-    <meta property="og:url" content="https://sethro552.github.io/wdd230/chamber/index.html">
-    <link rel="stylesheet" href="styles/base.css">
-    <link rel="stylesheet" href="styles/larger.css">
-    <link rel="stylesheet" href="styles/normalize.css">
-    <link rel="stylesheet" href="styles/lazy.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
-    <link href="https://fonts.googleapis.com/css2?family=Gugi&amp;display=swap" rel="stylesheet">
-    <link rel="icon" href="images/favicon.ico">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>The Chamber of Commerce webpage for Hudson</title>
+  <meta name="description" content="Seth's WDD 230 chamber of commerce project for BYUI">
+  <meta name="author" content="Seth Markle">
+  <meta property="og:title" content="Hudson Chamber of Commerce">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="https://sethro552.github.io/wdd230/chamber/images/logo.webp">
+  <meta property="og:url" content="https://sethro552.github.io/wdd230/chamber/index.html">
+  <link rel="stylesheet" href="styles/base.css">
+  <link rel="stylesheet" href="styles/larger.css">
+  <link rel="stylesheet" href="styles/normalize.css">
+  <link rel="stylesheet" href="styles/lazy.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+  <link href="https://fonts.googleapis.com/css2?family=Gugi&amp;display=swap" rel="stylesheet">
+  <link rel="icon" href="images/favicon.ico">
 </head>
-
 <body>
-    <div class="viewport">
-        <hr>
-        <header>
-                <img src="images/logo.webp" alt="logo">
-    </div>
-          <nav id="mainnav">
-            <ul>
-                <li class="hamburger" id="menubutton">
-                    <img src="images/hamburgerbutton.png" alt="hamburger menu">
-                </li>
-                <li class="menuItem"><a href="index.html">Home</a></li>
-                <li class="menuItem"><a href="discover.html">Discover</a></li>
-                <li class="menuItem"><a href="join.html">Join</a></li>
-                <li class="menuItem"><a href="directory.html">Directory</a></li>
-            </ul>
-        </nav>
-        <div id="reminder-banner">
-            <p>Reminder: Chamber of Commerce Meet & Greet this Wednesday at 7:00pm.</p>
-        </div>
+  <div class="viewport">
+    <hr>
+    <header>
+      <img src="images/logo.webp" alt="logo">
     </header>
-        <main>
-            <div class="banner">
-              <img src="images/hero.webp" alt="banner">
-            </div>
-            <div class="textContent">
-                <h1>Hudson Chamber of Commerce</h1>
-                <br>
-                <h3>We're devoted to supporting and promoting the original business community.
-                    Our goal is to help businesses network, grow, and thrive.</h3>
-                <br><br>
-                <h3>Through our events, activites, and advocacy, we aim to foster a strong and vibrant original small town feel.
-                  Whether you're a small business proprietor, a large corperation,
-                  <br>
-                  or just someone looking to support our 
-                  community, we want you to join us.</h3> 
-                <br><br>
-                <h3>Become a member and start enjoying the numerous benefits of the Chamber. This includes access to 
-                  networking events, business services, and the occasion to have your voice heard on 
-                  important issues affecting the business community.</h3>
-            </div>
-            <div class="cards">
-                <h2>Events</h2>
-                <div class="card">
-                    <picture>
-                        <img src="images/ypn.jpg" alt="">
-                    </picture>
-                    <div class="cardContent">
-                        <h2>December 7th, 2023</h2>
-                        <br>
-                        <p>Join us for our young professionals seminar. This seminar is designed to give outreach to the local youths of 
-                           the area about potental job opportunities.</p>
-                    </div>
-                </div>
-                <div class="card">
-                    <picture>
-                        <img src="images/coffee.jpg" alt="">
-                    </picture>
-                    <div class="cardContent">
-                        <h2>December 19th, 2023</h2>
-                        <br>
-                        <p>Come visit other local business leaders from around the Hudson area. Come to chat, inquire, or to make new 
-                           friends at this monthly event.</p>
-                    </div>
-                </div>
-                <div class="card">
-                    <picture>
-                        <img src="images/powerhour.jpg" alt="">
-                    </picture>
-                    <div class="cardContent">
-                        <h2>December 21st, 2023</h2>
-                        <br>
-                        <p>Want to beef up your portfolio or resume? Come vist our power hour. This is professional help from top employer 
-                           scouts who seeking out new employees.</p>
-                    </div>
-                </div>
-            </div>
-            <section class="card" id="weather-card">
-                <h2>Weather</h2>
-                <p id="weather">Today: <br><span id="temp"></span>&deg;F — <span id="desc"></span> <br>with <span id="windspeed"></span>mph winds</p>
-                <p>Feels Like <span id="feelsLike"></span>°F</p>
-                <p><span id="forecast"></span></p>
-            </section>
-            <div class="cards">
-                <h2>Spotlights</h2>
-                <div class="card">
-                    <picture>
-                        <img src="images/firesafety.jpg" alt="fire" id="p1">
-                    </picture>
-                    <div class="cardContent">
-                        <h2 id="t1">Are you prepared?</h2>
-                        <p id="d1"></p>
-                    </div>
-                </div>
-                <div class="card">
-                    <picture>
-                        <img src="images/ohiobmv.jpg" alt="BMV" id="p2">
-                    </picture>
-                    <div class="cardContent">
-                        <h2 id="t2">Welcome to the Ohio BMV</h2>
-                        <p id="d2"></p>
-                    </div>
-                </div>
-                <div class="card">
-                    <picture>
-                        <img src="images/permit.jpg" alt="Permits" id="p3">
-                    </picture>
-                    <div class="cardContent">
-                        <h2 id="t3">Apply for a permit</h2>
-                        <p id="d3"></p>
-                    </div>
-                </div>
-            </div>
-        </main>
-            <footer>
-              <div class="ftop">
-                  <div class="ftopLeft">
-                      <h2>Chamber of Commerce</h2>
-                      <p>27 E. Main St.</p>
-                      <p>Hudson, Ohio 44236</p>
-                  </div>
-                  <div class="ftopRight">
-                      <h2>Contact Information</h2>
-                      <p>hudsonchamber.org</p>
-                      <p>(330)-650-0261</p>
-                  </div>
-              </div>
-              <div class="fbottom">
-                  <span>© 2023</span>
-                  <span>Seth Markle</span>
-                  <span>WDD 230</span>
-                  <span id="moddate">Date Modified</span>
-              </div>
-          </footer>
-          <p id="time">---</p>
-    <script src="scripts/currentdate.js"></script>
-    <script src="scripts/weather.js"></script>
-    <script src="scripts/lazyscripts.js"></script>
+  </div>
+  <nav id="mainnav">
+    <ul>
+      <li class="hamburger" id="menubutton"><img src="images/hamburgerbutton.png" alt="hamburger menu"></li>
+      <li class="menuItem">
+        <a href="index.html">Home</a>
+      </li>
+      <li class="menuItem">
+        <a href="discover.html">Discover</a>
+      </li>
+      <li class="menuItem">
+        <a href="join.html">Join</a>
+      </li>
+      <li class="menuItem">
+        <a href="directory.html">Directory</a>
+      </li>
+    </ul>
+  </nav>
+  <div id="reminder-banner">
+    <p>Reminder: Chamber of Commerce Meet & Greet this Wednesday at 7:00pm.</p>
+  </div>
+  <main>
+    <div class="banner"><img src="images/hero.webp" alt="banner"></div>
+    <div class="textContent">
+      <h1>Hudson Chamber of Commerce</h1><br>
+      <h3>We're devoted to supporting and promoting the original business community. Our goal is to help businesses network, grow, and thrive.</h3><br>
+      <br>
+      <h3>Through our events, activites, and advocacy, we aim to foster a strong and vibrant original small town feel. Whether you're a small business proprietor, a large corperation,<br>
+      or just someone looking to support our community, we want you to join us.</h3><br>
+      <br>
+      <h3>Become a member and start enjoying the numerous benefits of the Chamber. This includes access to networking events, business services, and the occasion to have your voice heard on important issues affecting the business community.</h3>
+    </div>
+    <div class="cards">
+      <h2>Events</h2>
+      <div class="card">
+        <picture><img src="images/ypn.jpg" alt="ypn"></picture>
+        <div class="cardContent">
+          <h2>December 7th, 2023</h2><br>
+          <p>Join us for our young professionals seminar. This seminar is designed to give outreach to the local youths of the area about potental job opportunities.</p>
+        </div>
+      </div>
+      <div class="card">
+        <picture><img src="images/coffee.jpg" alt="coffee"></picture>
+        <div class="cardContent">
+          <h2>December 19th, 2023</h2><br>
+          <p>Come visit other local business leaders from around the Hudson area. Come to chat, inquire, or to make new friends at this monthly event.</p>
+        </div>
+      </div>
+      <div class="card">
+        <picture><img src="images/powerhour.jpg" alt="powerhour"></picture>
+        <div class="cardContent">
+          <h2>December 21st, 2023</h2><br>
+          <p>Want to beef up your portfolio or resume? Come vist our power hour. This is professional help from top employer scouts who seeking out new employees.</p>
+        </div>
+      </div>
+    </div>
+    <section class="card" id="weather-card">
+      <h2>Weather</h2>
+      <p id="weather">Today:<br>
+      <span id="temp"></span>°F — <span id="desc"></span><br>
+      with <span id="windspeed"></span>mph winds</p>
+      <p>Feels Like <span id="feelsLike"></span>°F</p>
+      <p><span id="forecast"></span></p>
+    </section>
+    <div class="cards">
+      <h2>Spotlights</h2>
+      <div class="card">
+        <picture><img src="images/firesafety.jpg" alt="fire" id="p1"></picture>
+        <div class="cardContent">
+          <h2 id="t1">Are you prepared?</h2>
+          <p id="d1"></p>
+        </div>
+      </div>
+      <div class="card">
+        <picture><img src="images/ohiobmv.jpg" alt="BMV" id="p2"></picture>
+        <div class="cardContent">
+          <h2 id="t2">Welcome to the Ohio BMV</h2>
+          <p id="d2"></p>
+        </div>
+      </div>
+      <div class="card">
+        <picture><img src="images/permit.jpg" alt="Permits" id="p3"></picture>
+        <div class="cardContent">
+          <h2 id="t3">Apply for a permit</h2>
+          <p id="d3"></p>
+        </div>
+      </div>
+    </div>
+  </main>
+  <footer>
+    <div class="ftop">
+      <div class="ftopLeft">
+        <h2>Chamber of Commerce</h2>
+        <p>27 E. Main St.</p>
+        <p>Hudson, Ohio 44236</p>
+      </div>
+      <div class="ftopRight">
+        <h2>Contact Information</h2>
+        <p>hudsonchamber.org</p>
+        <p>(330)-650-0261</p>
+      </div>
+    </div>
+    <div class="fbottom">
+      <span>© 2023</span> <span>Seth Markle</span> <span>WDD 230</span> <span id="moddate">Date Modified</span>
+    </div>
+  </footer>
+  <p id="time">---</p>
+  <script src="scripts/currentdate.js"></script> 
+  <script src="scripts/weather.js"></script> 
+  <script src="scripts/lazyscripts.js"></script>
 </body>
-
 </html>
