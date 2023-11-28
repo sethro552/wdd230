@@ -128,9 +128,6 @@ main .banner{
     margin-bottom: 20px;
     padding: 10px;
 }
-div.banner {
-    img: 500px;
-}
 h1{
     text-align: center;
 }
@@ -487,18 +484,6 @@ fieldset{
 }
 .members.list hr{
     border:none;
-}
-.meeting-banner{
-    position: fixed;
-    top: 0;
-    left: 0;
-    padding: 40px;
-    width: 100%;
-    display: grid;
-    place-items: center;
-    background-color: #F1520E;
-    color: white;
-    z-index: 1000;
 }
 
 .social-logo {
