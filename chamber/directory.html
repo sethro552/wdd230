@@ -22,50 +22,48 @@
     <link rel="icon" href="images/favicon.ico">
 </head>
 <header>
-    <div class="viewport">
-        <img src="images/logo.webp" alt="logo">
+  <div class="viewport"><img src="images/logo.webp" alt="logo"></div>
+</header>
+<nav id="mainnav">
+  <ul>
+    <li class="hamburger" id="menubutton"><img src="images/hamburgerbutton.png" alt="hamburger menu"></li>
+    <li class="menuItem">
+      <a href="index.html">Home</a>
+    </li>
+    <li class="menuItem">
+      <a href="discover.html">Discover</a>
+    </li>
+    <li class="menuItem">
+      <a href="join.html">Join</a>
+    </li>
+    <li class="menuItem">
+      <a href="directory.html">Directory</a>
+    </li>
+  </ul>
+</nav>
+<main>
+  <h1>Chamber of Commerce Members</h1><button class="button" id="toggle">List View</button>
+  <div id="members" class="members"></div>
+</main>
+<footer>
+  <div class="ftop">
+    <div class="ftopLeft">
+      <h2>Chamber of Commerce</h2>
+      <p>27 E. Main St.</p>
+      <p>Hudson, Ohio 44236</p>
     </div>
-    </header>
-    <body>
-          <nav id="mainnav">
-            <ul>
-                <li class="hamburger" id="menubutton">
-                    <img src="images/hamburgerbutton.png" alt="hamburger menu">
-                </li>
-
-                <li class="menuItem"><a href="index.html">Home</a></li>
-                <li class="menuItem"><a href="discover.html">Discover</a></li>
-                <li class="menuItem"><a href="join.html">Join</a></li>
-                <li class="menuItem"><a href="directory.html">Directory</a></li>
-            </ul>
-        </nav>
-        <main>
-            <h1>Chamber of Commerce Members</h1>
-            <button class="button" id="toggle">List View</button>
-            <div id="members" class="members"></div>
-        </main>
-        <footer>
-            <div class="ftop">
-                <div class="ftopLeft">
-                    <h2>Chamber of Commerce</h2>
-                    <p>27 E. Main St.</p>
-                    <p>Hudson, Ohio 44236</p>
-                </div>
-                <div class="ftopRight">
-                    <h2>Contact Information</h2>
-                    <p>hudsonchamber.org</p>
-                    <p>(330)-650-0261</p>
-                </div>
-            </div>
-            <div class="fbottom">
-                <span>© 2023</span>
-                <span>Seth Markle</span>
-                <span>WDD 230</span>
-                <span id="moddate">Date Modified</span>
-            </div>
-        </footer>
-        <p id="time">---</p>
-  <script src="scripts/menu.js"></script>
+    <div class="ftopRight">
+      <h2>Contact Information</h2>
+      <p>hudsonchamber.org</p>
+      <p>(330)-650-0261</p>
+    </div>
+  </div>
+  <div class="fbottom">
+    <span>© 2023</span> <span>Seth Markle</span> <span>WDD 230</span> <span id="moddate">Date Modified</span>
+  </div>
+</footer>
+<p id="time">---</p>
+<script src="scripts/currentdate.js"></script> 
+<script src="scripts/lazyscripts.js"></script>
 </body>
-
 </html>

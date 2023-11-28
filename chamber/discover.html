@@ -22,88 +22,80 @@
     <meta property="og:url" content="https://sethro552.github.io/wdd230/chamber/index.html">
 </head>
 <header>
-    <div class="viewport">
-        <img src="images/logo.webp" alt="logo">
+    <div class="viewport"><img src="images/logo.webp" alt="logo"></div>
+  </header>
+  <nav id="mainnav">
+    <ul>
+      <li class="hamburger" id="menubutton"><img src="images/hamburgerbutton.png" alt="hamburger menu"></li>
+      <li class="menuItem">
+        <a href="index.html">Home</a>
+      </li>
+      <li class="menuItem">
+        <a href="discover.html">Discover</a>
+      </li>
+      <li class="menuItem">
+        <a href="join.html">Join</a>
+      </li>
+      <li class="menuItem">
+        <a href="directory.html">Directory</a>
+      </li>
+    </ul>
+  </nav>
+  <main>
+    <h1>Welcome to Hudson Ohio</h1>
+    <div class="sidebar">
+      <div class="left">
+        <div class="statistics">
+          <h2>Our Statistics</h2>
+          <p>Population: 22,917</p>
+          <p>Median Age: 43.9 Years</p>
+          <p>Median Household Income: $143,143</p>
+          <p>Median Home Value: $370,900</p>
+        </div>
+      </div>
     </div>
-    </header>
-    <body>
-          <nav id="mainnav">
-            <ul>
-                <li class="hamburger" id="menubutton">
-                    <img src="images/hamburgerbutton.png" alt="hamburger menu">
-                </li>
-
-                <li class="menuItem"><a href="index.html">Home</a></li>
-                <li class="menuItem"><a href="discover.html">Discover</a></li>
-                <li class="menuItem"><a href="join.html">Join</a></li>
-                <li class="menuItem"><a href="directory.html">Directory</a></li>
-            </ul>
-        </nav>
-        <main>
-            <h1>Welcome to Hudson Ohio</h1>
-            <div class="sidebar">
-                <div class="left">
-                    <div class="statistics">
-                        <h2>Our Statistics</h2>
-                        <p>Population: 22,917</p>
-                        <p>Median Age: 43.9 Years</p>
-                        <p>Median Household Income: $143,143</p>
-                        <p>Median Home Value: $370,900</p>
-                    </div>
-                </div>
-                </div>
-                <div class="right">
-                    <div class="gallery">
-                        <div class="galleryImage">
-                            <img src="images/art.jpg" alt="Art Exhibit"  loading="lazy">
-                            <span class="label">Art Exhibit</span>
-                        </div>
-                        <div class="galleryImage">
-                            <img src="images/parkday.jpg" alt="Nature Walk"  loading="lazy">
-                            <span class="label">Nature Walk</span>
-                        </div>
-                        <div class="galleryImage">
-                            <img src="images/oldmarket.jpg" alt="Old Market"  loading="lazy">
-                            <span class="label">Old Market</span>
-                        </div>
-                        <div class="galleryImage">
-                            <img src="images/shoppingstation.jpg" alt="Train Station Shopping"  loading="lazy">
-                            <span class="label">Train Station Shopping</span>
-                        </div>
-                        <div class="galleryImage">
-                            <img src="images/forestwalk.jpg" alt="Wilderness Hike"  loading="lazy">
-                            <span class="label">Wilderness Hike</span>
-                        </div>
-                        <div class="galleryImage">
-                            <img src="images/beach.jpg" alt="Hudson Springs Lake" loading="lazy">
-                            <span class="label">Hudson Springs Lake</span>
-                        </div>
-                    </div>
-                    </div>
-        </main>
-            <footer>
-              <div class="ftop">
-                  <div class="ftopLeft">
-                      <h2>Chamber of Commerce</h2>
-                      <p>27 E. Main St.</p>
-                      <p>Hudson, Ohio 44236</p>
-                  </div>
-                  <div class="ftopRight">
-                      <h2>Contact Information</h2>
-                      <p>hudsonchamber.org</p>
-                      <p>(330)-650-0261</p>
-                  </div>
-              </div>
-              <div class="fbottom">
-                  <span>© 2023</span>
-                  <span>Seth Markle</span>
-                  <span>WDD 230</span>
-                  <span id="moddate">Date Modified</span>
-              </div>
-          </footer>
-          <p id="time">---</p>
-    <script src="scripts/menu.js"></script>
-    <script src="scripts/lazyscripts.js"></script>
-</body>
-
-</html>
+    <div class="right">
+      <div class="gallery">
+        <div class="galleryImage">
+          <img src="images/art.jpg" alt="Art Exhibit" loading="lazy"> <span class="label">Art Exhibit</span>
+        </div>
+        <div class="galleryImage">
+          <img src="images/parkday.jpg" alt="Nature Walk" loading="lazy"> <span class="label">Nature Walk</span>
+        </div>
+        <div class="galleryImage">
+          <img src="images/oldmarket.jpg" alt="Old Market" loading="lazy"> <span class="label">Old Market</span>
+        </div>
+        <div class="galleryImage">
+          <img src="images/shoppingstation.jpg" alt="Train Station Shopping" loading="lazy"> <span class="label">Train Station Shopping</span>
+        </div>
+        <div class="galleryImage">
+          <img src="images/forestwalk.jpg" alt="Wilderness Hike" loading="lazy"> <span class="label">Wilderness Hike</span>
+        </div>
+        <div class="galleryImage">
+          <img src="images/beach.jpg" alt="Hudson Springs Lake" loading="lazy"> <span class="label">Hudson Springs Lake</span>
+        </div>
+      </div>
+    </div>
+  </main>
+  <footer>
+    <div class="ftop">
+      <div class="ftopLeft">
+        <h2>Chamber of Commerce</h2>
+        <p>27 E. Main St.</p>
+        <p>Hudson, Ohio 44236</p>
+      </div>
+      <div class="ftopRight">
+        <h2>Contact Information</h2>
+        <p>hudsonchamber.org</p>
+        <p>(330)-650-0261</p>
+      </div>
+    </div>
+    <div class="fbottom">
+      <span>© 2023</span> <span>Seth Markle</span> <span>WDD 230</span> <span id="moddate">Date Modified</span>
+    </div>
+  </footer>
+  <p id="time">---</p>
+  <script src="scripts/currentdate.js"></script> 
+  <script src="scripts/lazyscripts.js"></script>
+        </body>
+        </html>
