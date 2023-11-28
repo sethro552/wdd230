@@ -4,9 +4,11 @@
     color: #DAB785;
 }
 body{
-    background: #04395E;
-    min-width: 350px;
-    margin-bottom: 50px;
+    background-color: #04395E;
+    color: #D5896F;
+    font-family: "Gugi", sans-serif;
+    display: grid;
+    align-items: center;
 }
 hr{
     border-top: 1px solid #ccc;
@@ -20,7 +22,7 @@ a {
 a:hover{
     color: white;
 }
-div.viewport {
+.viewport {
     background-color: #04395E;
     width: 90%;
     min-height: 75%;
@@ -119,13 +121,15 @@ nav ul li{
     background-color: white;
 }
 main .banner{
-    background: url("images/hero.jpg") no-repeat center center;
     background-size: cover;
     display: flex;
     justify-content: center;
     align-items: center;
     margin-bottom: 20px;
     padding: 10px;
+}
+div.banner {
+    img: 500px;
 }
 h1{
     text-align: center;
@@ -182,6 +186,12 @@ main .cards h2{
 main .textContent{
     width: 100%;
     padding: 0 50px;
+    background-color: #04395E;
+    color: #D5896F;
+    font-family: "Gugi", sans-serif;
+    display: grid;
+    align-items: center;
+    text-align: center;
 }
 footer{
     width: 100%;
@@ -506,4 +516,8 @@ fieldset{
 
 img {
     width: 250px;
+}
+
+#reminder-banner {
+    text-align: center;
 }
