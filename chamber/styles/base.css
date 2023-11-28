@@ -26,10 +26,10 @@ a:hover{
     background-color: #04395E;
     width: 90%;
     min-height: 75%;
-    margin: 0 auto;
     font-family: 'Gugi', sans-serif;
     font-weight: 400;
     color: #DAB785;
+    display: grid;
 }
 header{
     width: 100%;

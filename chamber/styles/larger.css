@@ -3,7 +3,6 @@
         display:block;
     }
     header{
-        width: 30%;
         margin: 0 auto;
         display:inline-block;
         padding:10px;
@@ -19,12 +18,10 @@
         max-width:90%;
     }
     nav{
-        width: calc(70% - 40px);
         margin: 0 auto;
         border:none;
         text-align: right;
         display:inline-block;
-        padding:10px;
         position: relative;
     }
     nav .hamburger{
