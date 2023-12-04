@@ -4,12 +4,12 @@
     text-align: center;
 }
 body{
-    background-color:  #718F00;
+    background-color:  #96ACB7;
     min-width: 350px;
     margin-bottom: 50px;
 }
 hr{
-    border-top: 3px solid #F5CC00;
+    border-top: 3px solid #D4E4BC;
     width: 100%;
     display:none;
 }
@@ -21,14 +21,14 @@ a:hover{
     color: white;
 }
 div.viewport {
-    background-color: #457A00;
+    background-color: #36558F;
     width: 90%;
     min-height: 75%;
     max-width: 1400px;
     margin: 0 auto;
     font-family: 'Kalim', sans-serif;
     font-weight: 400;
-    border-top: 3px solid #F5CC00;
+    border-top: 3px solid #D4E4BC;
     position: relative;
     padding-top: 20px;
 }
@@ -50,7 +50,7 @@ nav{
     padding: 10px 0;
     position: sticky;
     top: 0;
-    background-color: #F5CC00;
+    background-color: #D4E4BC;
     border-top: 3px solid black;
     border-bottom: 3px solid black;
     align-items: center;
@@ -86,7 +86,7 @@ nav ul li{
     border-bottom: 3px solid transparent;
 }
 .menuItem:hover{
-    border-bottom: 3px solid #F5CC00;
+    border-bottom: 3px solid #96ACB7;
 }
 .responsive ul{
     display: flex;
@@ -97,17 +97,17 @@ nav ul li{
     position: absolute;
     top: 0;
     left: 0;
-    background-color: #F5CC00;
+    background-color: #96ACB7;
     z-index: 1;
     padding: 10px;
-    border-bottom: 3px solid #F5CC00;
+    border-bottom: 3px solid #96ACB7;
 }
 .responsive .menuItem{
     display: block;
     padding:5px;
 }
 .button{
-    background-color: #F5CC00;
+    background-color: #D4E4BC;
     padding: 5px 10px;
     border-radius: 5px;
     margin: 0 10px;
@@ -134,17 +134,16 @@ h1{
     text-align: center;
     padding-left: 20px;
     padding-right: 20px;
+    color: white;
 }
 h2{
     text-align: center;
+    color: white;
 }
 p{
     text-align: center;
     padding: 10px;
-}
-img{
-    margin-top: 20px;
-    margin-bottom: 20px;
+    color: white;
 }
 div.cardContent{
     padding-left: 50px;
@@ -153,13 +152,15 @@ div.cardContent{
 div.card{
     padding-left: 50px;
     width: fit-content;
+    padding-bottom: 50px;
+    color: white;
 }
 .social{
     place-self: center;
+    display: grid;
 }    
 .social-logo{
-        width: 40px;
-        margin: 10px;
+        width: 50px;
 }        
 main .cards{
     width: 100%;
@@ -216,8 +217,8 @@ main .textContent{
 }
 footer{
     width: 100%;
-    background-color: #457A00;
-    color: black;
+    background-color: #36558F;
+    color: white;
     text-align: center;
     padding: 10px 0;
 }
@@ -240,14 +241,14 @@ footer .ftop .ftopLeft{
     width: 100%;
     max-width: 400px;
     margin: 10px;
-    border-bottom: 3px solid #F5CC00;
+    border-bottom: 3px solid #D4E4BC;
     padding:10px;
 }
 footer .ftop .ftopRight{
     width: 100%;
     max-width: 400px;
     margin: 10px;
-    border-bottom: 3px solid #F5CC00;
+    border-bottom: 3px solid #D4E4BC;
     padding:10px;
 }
 footer .ftop .ftopRight p{
@@ -262,7 +263,7 @@ footer .fbottom{
     align-items: center;
 }
 footer .fbottom span:not(:first-child){
-    border-left: 3px solid #F5CC00;
+    border-left: 3px solid white;
 }
 footer .fbottom span{
     font-size: 0.8em;
@@ -337,7 +338,6 @@ footer .fbottom span{
 }
 
 input{
-    border: 1px solid #bebfc1;
     padding: 10px 30px;
     margin: 10px;
     display: block;
@@ -351,16 +351,9 @@ input{
 input[type=submit]{
     border: 2px solid #00bfff;
     display: inline-block;
-    background-color: #00bfff;
-    color: #fff;
-    transition: background-color ease-in-out 0.2s;
+    background-color: #D4E4BC;
+    color: black;
 }
-
-input[type=submit]:hover{
-    background-color: #33ccff;
-    color: #fff;
-}
-
 input[type=radio]{
     border: 1px solid #bebfc1;
     display: inline-block;
@@ -373,7 +366,7 @@ label{
     font-size: 1em;
     font-weight: 400;
     margin: 0;
-    color: black;
+    color: white;
 }
 
 textarea{
@@ -394,7 +387,8 @@ fieldset{
     border: 1px solid #ccc;
     border-radius: 5px;
     padding: 10px;
-    margin: 10px;
+    color: white;
+    padding: 100px;
 }
 .hiddenForm{
     display: none;

@@ -9,7 +9,7 @@
         padding:10px;
     }
     img.logo{
-        max-width:90%;
+        max-width:50%;
     }
     nav{
         width: calc(70% - 40px);
@@ -35,8 +35,8 @@
     }
     main .banner{
         aspect-ratio: 20/9;
-        border-bottom:3px solid #F5CC00;
-        border-top: 3px solid #F5CC00;
+        border-bottom:3px solid #D4E4BC;
+        border-top: 3px solid #D4E4BC;
     }
     main .cards.weather .card{
         width: 100%;
@@ -46,7 +46,7 @@
         padding-top:30px;
     }
     footer .ftop{
-        border-top: 3px solid #F5CC00;
+        border-top: 3px solid #D4E4BC;
     }
     footer .ftop > div{
         border: none !important;
@@ -56,7 +56,7 @@
         padding: 15px;
         padding-bottom:5px;
         width:100%;
-        border-top: 3px solid #F5CC00;
+        border-top: 3px solid #D4E4BC;
     }
 
     .sidebar {
@@ -69,8 +69,8 @@
     }
     .blocks{
         display: grid;
-        grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-        grid-template-rows: auto;
+        /*grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+        grid-template-rows: auto;*/
         padding: 10px;
     }
     .hiddenForm{
@@ -79,7 +79,6 @@
 }
 
 @media screen and (min-width: 1039px) and (max-width: 1371px) {
-    /* make neat rows on medium sizes */
     .hiddenForm{
         display: none;
     }
