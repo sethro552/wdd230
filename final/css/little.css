@@ -386,9 +386,7 @@ textarea{
 fieldset{
     border: 1px solid #ccc;
     border-radius: 5px;
-    padding: 10px;
     color: white;
-    padding: 100px;
 }
 .hiddenForm{
     display: none;
