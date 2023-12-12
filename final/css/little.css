@@ -2,6 +2,7 @@
     box-sizing: border-box;
     font-family: 'Kalam', sans-serif;
     text-align: center;
+    padding: 5px;
 }
 body{
     background-color:  #96ACB7;
@@ -131,13 +132,7 @@ p{
     padding: 10px;
     color: white;
 }
-div.cardContent{
-    padding-left: 50px;
-    width: fit-content;
-}
 div.card{
-    padding-left: 50px;
-    padding-bottom: 50px;
     color: white;
 }
 .social{
@@ -316,7 +311,7 @@ nav{
     vertical-align: middle;
 }
 img {
-    width: 500px;
+    width: 325px;
 }
 #weather-icon {
 width: 50px;
