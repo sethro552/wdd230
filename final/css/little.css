@@ -20,7 +20,7 @@ a {
 a:hover{
     color: white;
 }
-div.viewport {
+.viewport {
     background-color: #36558F;
     width: 90%;
     min-height: 75%;
@@ -39,7 +39,7 @@ header{
     position: relative;
     vertical-align: middle;
 }
-img.logo{
+.logo{
     max-width:90%;
 }
 nav{
@@ -48,7 +48,6 @@ nav{
     font-weight: 700;
     text-align: center;
     padding: 10px 0;
-    position: sticky;
     top: 0;
     background-color: #D4E4BC;
     border-top: 3px solid black;
@@ -59,7 +58,6 @@ nav{
 }
 nav .hamburger{
     display:inline-grid;
-    place-items: center;
 }
 nav .hamburger img{
     width: 30px;
@@ -99,7 +97,6 @@ nav ul li{
     left: 0;
     background-color: #96ACB7;
     z-index: 1;
-    padding: 10px;
     border-bottom: 3px solid #96ACB7;
 }
 .responsive .menuItem{
@@ -108,11 +105,11 @@ nav ul li{
 }
 .button{
     background-color: #D4E4BC;
-    padding: 5px 10px;
     border-radius: 5px;
     margin: 0 10px;
     color: black;
     text-decoration: none;
+    width: 50px;
 }
 .button a{
     color: #fff;
@@ -120,15 +117,6 @@ nav ul li{
 }
 .button:hover{
     background-color: black;
-}
-main .banner{
-    width: 475%;
-    background: url("photos/banner.png") no-repeat center center;
-    background-size: cover;
-    aspect-ratio: 16/9;
-    display: flex;
-    justify-content: center;
-    margin-bottom: 20px;
 }
 h1{
     text-align: center;
@@ -153,7 +141,6 @@ div.card{
     color: white;
 }
 .social{
-    place-self: center;
     display: grid;
 }    
 .social-logo{
@@ -164,7 +151,6 @@ main .cards{
     display: flex;
     justify-content: space-between;
     position:relative;
-    padding:10px;
     align-items: center;
 }
 main .cards .card{
@@ -176,13 +162,10 @@ main .cards .card{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    border: 1px solid white;
-    border-radius: 20px;
     overflow:hidden;
 }
 main .cards .card img:not(.weatherIcon){
     width: 85%;
-    aspect-ratio: 16/9;
     border-radius: 5px;
     border-bottom:1px solid white;
 }
@@ -193,24 +176,13 @@ main .cards .card img:not(.weatherIcon){
 main .cards .card .cardContent{
     padding: 10px;
 }
-main .cards .card h2{
-    font-size: 1.5em;
-    font-weight: 700;
-    margin: 0;
-    text-align: center;
-}
 main .cards .card p{
     font-size: 1.2em;
     font-weight: 400;
     margin: 0;
 }
-main .cards h2{
-    flex: 0 0 100%;
-    text-align: center;
-}
 main .textContent{
     width: 100%;
-    padding: 0 50px;
 }
 footer{
     width: 100%;
@@ -218,11 +190,6 @@ footer{
     color: white;
     text-align: center;
     padding: 10px 0;
-}
-footer h2{
-    font-size: 1.5em;
-    font-weight: 700;
-    margin: 0;
 }
 footer p{
     font-size: 1.2em;
@@ -239,14 +206,12 @@ footer .ftop .ftopLeft{
     max-width: 400px;
     margin: 10px;
     border-bottom: 3px solid #D4E4BC;
-    padding:10px;
 }
 footer .ftop .ftopRight{
     width: 100%;
     max-width: 400px;
     margin: 10px;
     border-bottom: 3px solid #D4E4BC;
-    padding:10px;
 }
 footer .ftop .ftopRight p{
     font-size: 1.2em;
@@ -272,7 +237,6 @@ footer .fbottom span{
 input{
     padding: 10px 30px;
     margin: 10px;
-    display: block;
     font-size: 1em;
     border-radius: 5px;
     display: block;
@@ -287,7 +251,6 @@ input[type=submit]{
     color: black;
 }
 input[type=radio]{
-    border: 1px solid #bebfc1;
     display: inline-block;
     margin: 10px 0;
     width: 20px;
@@ -302,15 +265,12 @@ label{
 }
 
 textarea{
-    border: 1px solid #bebfc1;
-    padding: 10px 30px;
     margin: 10px;
     height: 296px;
     width: calc(100% - 20px);
     display: block;
     font-size: 1em;
     border-radius: 5px;
-    display: block;
     color: black;
     resize: none;
 }
@@ -337,7 +297,6 @@ fieldset{
 }
 nav .hamburger{
     display:inline-grid;
-    place-items: center;
 }
 nav .hamburger img{
     width: 30px;
@@ -351,15 +310,26 @@ nav{
     font-weight: 700;
     text-align: center;
     padding: 10px 0;
-    position: sticky;
     top: 0;
     align-items: center;
     z-index: 1;
     vertical-align: middle;
 }
 img {
-    width: 350px;
+    width: 500px;
 }
 #weather-icon {
 width: 50px;
+}
+.responsive ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #fff;
+    z-index: 1;
 }
